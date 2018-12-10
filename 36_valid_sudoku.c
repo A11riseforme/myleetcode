@@ -2,7 +2,26 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-bool isValidRow(char **board, int row) {
+// a very elegant use of 3d array, it is so nice that I have to include this in my notes.
+int isValidSudoku(char** board, int boardRowSize, int boardColSize) {
+    int rows[9][9] = {0}; //rows[5][0] means whether number 1('0'+1) in row 5 has appeared.
+    int cols[9][9] = {0}; //cols[3][8] means whether number 9('8'+1) in col 3 has appeared.
+    int blocks[3][3][9] = {0}; //blocks[0][2][5] means whether number '6' in block 0,2 (row 0~2,col 6~8) has appeared.
+    for(int r = 0; r < 9; r++) //traverse board r,c
+        for(int c = 0; c < 9; c++)
+            if(board[r][c] != '.') { //skip all number '.'
+                int number = board[r][c] - '1'; //calculate the number's index(board's number minus 1)
+                if(rows[r][number]++)
+                    return 0; //if the number has already appeared once, return false.
+                if(cols[c][number]++)
+                    return 0;
+                if(blocks[r / 3][c / 3][number]++)
+                    return 0;
+            }
+    return 1;
+}
+
+bool isValidRow_slow(char **board, int row) {
     int num[10] = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
     for (int i = 0; i < 9; i++) {
         if (board[row][i] != '.') {
@@ -95,7 +114,7 @@ int main() {
     *(sudoku + 6) = ".6....28.";
     *(sudoku + 7) = "...419..5";
     *(sudoku + 8) = "....8..79";
-    printf("it is a %s sudoku\n\n", isValidSudoku(sudoku, 9, 9) ? "valid" : "invalid");
+    printf("it is a %s sudoku\n\n", isValidSudoku_slow(sudoku, 9, 9) ? "valid" : "invalid");
 
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
