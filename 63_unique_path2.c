@@ -45,7 +45,12 @@ int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridRowSize, int ob
             }
         }
     }
-    return pathMatrix[obstacleGridRowSize-1][obstacleGridColSize-1];
+    int result = pathMatrix[obstacleGridRowSize-1][obstacleGridColSize-1];
+    for (int i = 0; i < obstacleGridRowSize; i++) {
+        free(*(pathMatrix + i));
+    }
+    free(pathMatrix);
+    return result;
 }
 
 
