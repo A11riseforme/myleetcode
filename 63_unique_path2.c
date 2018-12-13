@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// allocate extra space to store the paths numbers, can also change obstacleGrid IN PLACE
+// so that space complexity is O(1)
 int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridRowSize, int obstacleGridColSize) {
     int **pathMatrix = calloc(obstacleGridRowSize, sizeof(int *));
     for (int i = 0; i < obstacleGridRowSize; i++) {
