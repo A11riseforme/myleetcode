@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+// can treat matrix as a 1d sorted array and apply binary search.
+// or do binary search on matrix[][0](first column), then do binary search on matrix[i][](one row)
 bool searchMatrix(int** matrix, int matrixRowSize, int matrixColSize, int target) {
     for (int i = 0; i < matrixRowSize; i++) {
         if ((target >= matrix[i][0] && i == matrixRowSize - 1) ||
