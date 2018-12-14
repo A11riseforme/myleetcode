@@ -7,12 +7,9 @@
  */
 int* plusOne(int* digits, int digitsSize, int* returnSize) {
     int *result = calloc(digitsSize + 1, sizeof(int));
-    int carry = 0, sum, digit;
-    sum = 1 + digits[digitsSize - 1];
-    digit = sum % 10;
-    carry = sum / 10;
+    int carry = 1, sum, digit;
     *(result + digitsSize) = digit;
-    for (int i = digitsSize - 2; i >= 0; i--) {
+    for (int i = digitsSize - 1; i >= 0; i--) {
         sum = digits[i] + carry;
         digit = sum % 10;
         carry = sum / 10;
@@ -32,11 +29,11 @@ int* plusOne(int* digits, int digitsSize, int* returnSize) {
 
 
 int main() {
-    int digits[3] = {9,9,9};
+    int digits[3] = {9, 9, 9};
     int returnSize;
     int *result = plusOne(digits, 3, &returnSize);
     for (int i = 0; i < returnSize; i++) {
-        printf("%d ",*(result + i));
+        printf("%d ", *(result + i));
     }
     free(result);
 }
