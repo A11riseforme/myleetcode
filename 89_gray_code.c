@@ -23,6 +23,6 @@ int main() {
     for (int i = 0; i < returnSize; i++) {
         char s[5];
         itoa(result[i], s, 2);
-        printf("%04s\n", s);
+        printf("%2d : %04s\n", result[i], s);
     }
 }
