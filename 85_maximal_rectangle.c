@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
-#include <string.h>
 
 int maximalRectangle(char** matrix, int matrixRowSize, int matrixColSize) {
     int **height = calloc(matrixRowSize, sizeof(int *));
@@ -25,7 +23,7 @@ int maximalRectangle(char** matrix, int matrixRowSize, int matrixColSize) {
             if (matrix[i][j] == '1') {
                 tmpMaxArea = height[i][j];
                 maxHeight = height[i][j];
-                for (int k = j+1; k < matrixColSize && height[i][k] > 0; k++) {
+                for (int k = j + 1; k < matrixColSize && height[i][k] > 0; k++) {
                     maxHeight = (height[i][k] < maxHeight ? height[i][k] : maxHeight);
                     curArea = (k - j + 1) * maxHeight;
                     tmpMaxArea = (curArea > tmpMaxArea ? curArea : tmpMaxArea);
@@ -34,14 +32,16 @@ int maximalRectangle(char** matrix, int matrixRowSize, int matrixColSize) {
             }
         }
     }
-
+    for (int i = 0; i < matrixRowSize; i++) {
+        free(*(height + i));
+    }
+    free(height);
     return maxArea;
 }
 
 
 /* ./test 11111111 11111110 11111110 11111000 01111000 */
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     if (argc < 2) {
         fprintf(stderr, "Usage: ./test row1 row2...\n");
         exit(-1);
