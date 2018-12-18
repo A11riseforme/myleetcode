@@ -1,9 +1,22 @@
 #include <stdio.h>
 
-int maxProfit(int* prices, int pricesSize) {
+// have no idea why this takes 4ms, but maxProfit() takes 0ms.
+int maxProfitSlow(int* prices, int pricesSize) {
     int totalProfit = 0;
     for (int i = 1; i < pricesSize; i++) {
         totalProfit += prices[i] > prices[i-1] ? prices[i] - prices[i-1] : 0;
+    }
+    return totalProfit;
+}
+
+
+// faster at 0ms.
+int maxProfit(int* prices, int pricesSize) {
+    int totalProfit = 0;
+    for (int i = 1; i < pricesSize; i++) {
+        if (prices[i] > prices[i-1]) {
+            totalProfit += prices[i] - prices[i-1];
+        }
     }
     return totalProfit;
 }
