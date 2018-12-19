@@ -14,7 +14,8 @@ Completion statistic:<br>
 -----------------------
 ## LeetCode Solution Table
 | ID | Title | Difficulty | Acceptance Rate | C |
-|:---:|:---:|:---:|:---:|:---:||001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |easy|0.394|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/1_two_sum.c)|
+|:---:|:---:|:---:|:---:|:---:|
+|001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |easy|0.394|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/1_two_sum.c)|
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |medium|0.255|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/3_longest_substring_without_repeating_characters.c)|
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) |medium|0.258|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/5_longest_palindromic_substring.c)|
 |006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |medium|0.295|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/6_zigzag_conversion.c)|
