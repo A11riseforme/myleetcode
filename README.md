@@ -1,9 +1,9 @@
 # Stay Hungry, Stay Foolish
 My own leetcode solutions.
 TODO:
-1. update 1_two_sum.c using hash table.
-2. update 28_implement_strstr.c using KMP and Boyer-Moore algorithm.
-3. update 5_longest_palindromic_substring.c using manacher algorithm.
+1. update 1-two-sum.c using hash table.
+2. update 28-implement-strstr.c using KMP and Boyer-Moore algorithm.
+3. update 5-longest-palindromic-substring.c using manacher algorithm.
 
 Completion statistic:<br>
 `*`Total : 87<br>
@@ -18,7 +18,7 @@ Completion statistic:<br>
 |001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |easy|0.394|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/1-two-sum.c)|
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |medium|0.255|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/3-longest-substring-without-repeating-characters.c)|
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) |medium|0.258|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/5-longest-palindromic-substring.c)|
-|006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |medium|0.295|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/6-zigzag-conversion.c)|
+|006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |medium|0.296|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/6-zigzag-conversion.c)|
 |007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) |easy|0.247|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/7-reverse-integer.c)|
 |008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) |medium|0.142|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/8-string-to-integer-atoi.c)|
 |009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |easy|0.402|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/9-palindrome-number.c)|
