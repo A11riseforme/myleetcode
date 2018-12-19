@@ -5,11 +5,11 @@ TODO:
 2. update 28_implement_strstr.c using KMP and Boyer-Moore algorithm.
 3. update 5_longest_palindromic_substring.c using manacher algorithm.
 
-Completion statistic:
-Total : 87
-    Easy : 43
-    Medium : 39
-    Hard : 5
+Completion statistic: 
+*Total : 87
+*Easy : 43
+*Medium : 39
+*Hard : 5
 
 -----------------------
 ## LeetCode Solution Table
