@@ -7,9 +7,9 @@ TODO:
 
 Completion statistic:<br>
 `*`Total : 87<br>
-`*`Easy : 43<br>
-`*`Medium : 39<br>
-`*`Hard : 5<br>
+`-`Easy : 43<br>
+`-`Medium : 39<br>
+`-`Hard : 5<br>
 
 -----------------------
 ## LeetCode Solution Table
