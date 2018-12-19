@@ -6,10 +6,10 @@ TODO:
 3. update 5_longest_palindromic_substring.c using manacher algorithm.
 
 Completion statistic: 
-*Total : 87
-*Easy : 43
-*Medium : 39
-*Hard : 5
+`*`Total : 87
+`*`Easy : 43
+`*`Medium : 39
+`*`Hard : 5
 
 -----------------------
 ## LeetCode Solution Table
