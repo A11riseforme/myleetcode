@@ -6,9 +6,9 @@ TODO:
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 
 Completion statistic:<br>
-- Total : 89<br>
+- Total : 90<br>
     - Easy : 43<br>
-    - Medium : 41<br>
+    - Medium : 42<br>
     - Hard : 5<br>
 
 -----------------------
@@ -82,6 +82,7 @@ Completion statistic:<br>
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |easy|0.293|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/125-valid-palindrome.c)|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) |medium|0.214|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/130-surrounded-regions.c)|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) |medium|0.384|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/131-palindrome-partitioning.c)|
+|134|[Gas Station](https://leetcode.com/problems/gas-station/description/) |medium|0.321|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/134-gas-station.c)|
 |136|[Single Number](https://leetcode.com/problems/single-number/description/) |easy|0.579|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/136-single-number.c)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) |easy|0.482|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/167-two-sum-ii-input-array-is-sorted.c)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) |easy|0.282|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/168-excel-sheet-column-title.c)|
