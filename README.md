@@ -13,6 +13,6 @@ Completion statistic:<br>
 
 -----------------------
 ## LeetCode Solution Table
-| ID | Title | Difficulty | C | Acceptance Rate |
+| ID | Title | Difficulty | Acceptance Rate | C |
 |:---:|:---:|:---:|:---:|:---:|
-|001|[Two Sum](https://leetcode.com/problems/two-sum/description/)|Easy|[C](https://github.com/A11riseforme/myleetcode/blob/master/1_two_sum.c)|0.394|
+|001|[Two Sum](https://leetcode.com/problems/two-sum/description/)|Easy|0.394|[C](https://github.com/A11riseforme/myleetcode/blob/master/1_two_sum.c)|
