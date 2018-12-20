@@ -6,9 +6,9 @@ TODO:
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 
 Completion statistic:<br>
-- Total : 91<br>
+- Total : 92<br>
     - Easy : 43<br>
-    - Medium : 43<br>
+    - Medium : 44<br>
     - Hard : 5<br>
 
 -----------------------
@@ -33,7 +33,7 @@ Completion statistic:<br>
 |026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |easy|0.386|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/26-remove-duplicates-from-sorted-array.c)|
 |027|[Remove Element](https://leetcode.com/problems/remove-element/description/) |easy|0.427|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/27-remove-element.c)|
 |028|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) |easy|0.305|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/28-implement-strstr.c)|
-|031|[Next Permutation](https://leetcode.com/problems/next-permutation/description/) |medium|0.295|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/31-next-permutation.c)|
+|031|[Next Permutation](https://leetcode.com/problems/next-permutation/description/) |medium|0.296|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/31-next-permutation.c)|
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) |medium|0.323|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/33-search-in-rotated-sorted-array.c)|
 |034|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) |medium|0.324|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/34-find-first-and-last-position-of-element-in-sorted-array.c)|
 |035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) |easy|0.401|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/35-search-insert-position.c)|
@@ -57,7 +57,7 @@ Completion statistic:<br>
 |064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) |medium|0.442|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/64-minimum-path-sum.c)|
 |065|[Valid Number](https://leetcode.com/problems/valid-number/description/) |hard|0.135|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/65-valid-number.c)|
 |066|[Plus One](https://leetcode.com/problems/plus-one/description/) |easy|0.402|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/66-plus-one.c)|
-|067|[Add Binary](https://leetcode.com/problems/add-binary/description/) |easy|0.368|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/67-add-binary.c)|
+|067|[Add Binary](https://leetcode.com/problems/add-binary/description/) |easy|0.369|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/67-add-binary.c)|
 |069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) |easy|0.299|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/69-sqrtx.c)|
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) |easy|0.425|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/70-climbing-stairs.c)|
 |071|[Simplify Path](https://leetcode.com/problems/simplify-path/description/) |medium|0.275|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/71-simplify-path.c)|
@@ -73,7 +73,7 @@ Completion statistic:<br>
 |085|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/) |hard|0.316|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/85-maximal-rectangle.c)|
 |088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) |easy|0.340|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/88-merge-sorted-array.c)|
 |089|[Gray Code](https://leetcode.com/problems/gray-code/description/) |medium|0.442|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/89-gray-code.c)|
-|091|[Decode Ways](https://leetcode.com/problems/decode-ways/description/) |medium|0.213|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/91-decode-ways.c)|
+|091|[Decode Ways](https://leetcode.com/problems/decode-ways/description/) |medium|0.214|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/91-decode-ways.c)|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) |easy|0.432|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/118-pascals-triangle.c)|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) |easy|0.408|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/119-pascals-triangle-ii.c)|
 |120|[Triangle](https://leetcode.com/problems/triangle/description/) |medium|0.374|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/120-triangle.c)|
@@ -85,6 +85,7 @@ Completion statistic:<br>
 |134|[Gas Station](https://leetcode.com/problems/gas-station/description/) |medium|0.321|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/134-gas-station.c)|
 |136|[Single Number](https://leetcode.com/problems/single-number/description/) |easy|0.579|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/136-single-number.c)|
 |139|[Word Break](https://leetcode.com/problems/word-break/description/) |medium|0.334|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/139-word-break.c)|
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) |medium|0.306|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/150-evaluate-reverse-polish-notation.c)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) |easy|0.482|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/167-two-sum-ii-input-array-is-sorted.c)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) |easy|0.282|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/168-excel-sheet-column-title.c)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/description/) |easy|0.504|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/169-majority-element.c)|
