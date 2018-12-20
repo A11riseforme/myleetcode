@@ -62,7 +62,6 @@ char*** partition(char* s, int** columnSizes, int* returnSize) {
 }
 
 
-// memory leak is inevitable up to my ability right now.
 int main(int argc, char **argv)
 {
     if (argc != 2) {
@@ -80,5 +79,13 @@ int main(int argc, char **argv)
         }
         printf("\n");
     }
+    for (int i = 0; i < count; i++) {
+        for (int j = 0; j < col_sizes[i]; j++) {
+            free(lists[i][j]);
+        }
+        free(lists[i]);
+    }
+    free(lists);
+    free(col_sizes);
     return 0;
 }
