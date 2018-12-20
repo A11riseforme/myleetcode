@@ -6,23 +6,23 @@ TODO:
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 
 Completion statistic:<br>
-- Total : 90<br>
+- Total : 91<br>
     - Easy : 43<br>
-    - Medium : 42<br>
+    - Medium : 43<br>
     - Hard : 5<br>
 
 -----------------------
 ## LeetCode Solution Table
 | ID | Title | Difficulty | Acceptance Rate | C |
 |:---:|:---:|:---:|:---:|:---:|
-|001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |easy|0.394|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/1-two-sum.c)|
+|001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |easy|0.395|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/1-two-sum.c)|
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |medium|0.255|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/3-longest-substring-without-repeating-characters.c)|
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) |medium|0.258|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/5-longest-palindromic-substring.c)|
 |006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |medium|0.296|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/6-zigzag-conversion.c)|
 |007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) |easy|0.247|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/7-reverse-integer.c)|
 |008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) |medium|0.142|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/8-string-to-integer-atoi.c)|
 |009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |easy|0.402|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/9-palindrome-number.c)|
-|011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) |medium|0.407|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/11-container-with-most-water.c)|
+|011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) |medium|0.408|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/11-container-with-most-water.c)|
 |012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) |medium|0.487|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/12-integer-to-roman.c)|
 |013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) |easy|0.505|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/13-roman-to-integer.c)|
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) |easy|0.324|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/14-longest-common-prefix.c)|
@@ -44,7 +44,7 @@ Completion statistic:<br>
 |048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |medium|0.453|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/48-rotate-image.c)|
 |049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) |medium|0.430|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/49-group-anagrams.c)|
 |050|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/) |medium|0.270|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/50-powx-n.c)|
-|051|[N-Queens](https://leetcode.com/problems/n-queens/description/) |hard|0.364|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/51-n-queens.c)|
+|051|[N-Queens](https://leetcode.com/problems/n-queens/description/) |hard|0.365|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/51-n-queens.c)|
 |052|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) |hard|0.496|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/52-n-queens-ii.c)|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) |easy|0.420|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/53-maximum-subarray.c)|
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) |medium|0.288|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/54-spiral-matrix.c)|
@@ -81,9 +81,10 @@ Completion statistic:<br>
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |easy|0.500|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/122-best-time-to-buy-and-sell-stock-ii.c)|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |easy|0.293|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/125-valid-palindrome.c)|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) |medium|0.214|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/130-surrounded-regions.c)|
-|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) |medium|0.384|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/131-palindrome-partitioning.c)|
+|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) |medium|0.385|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/131-palindrome-partitioning.c)|
 |134|[Gas Station](https://leetcode.com/problems/gas-station/description/) |medium|0.321|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/134-gas-station.c)|
 |136|[Single Number](https://leetcode.com/problems/single-number/description/) |easy|0.579|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/136-single-number.c)|
+|139|[Word Break](https://leetcode.com/problems/word-break/description/) |medium|0.334|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/139-word-break.c)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) |easy|0.482|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/167-two-sum-ii-input-array-is-sorted.c)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) |easy|0.282|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/168-excel-sheet-column-title.c)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/description/) |easy|0.504|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/169-majority-element.c)|
@@ -99,7 +100,7 @@ Completion statistic:<br>
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) |easy|0.497|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/217-contains-duplicate.c)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) |easy|0.341|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/219-contains-duplicate-ii.c)|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/description/) |easy|0.413|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/231-power-of-two.c)|
-|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) |easy|0.498|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/242-valid-anagram.c)|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) |easy|0.499|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/242-valid-anagram.c)|
 |258|[Add Digits](https://leetcode.com/problems/add-digits/description/) |easy|0.530|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/258-add-digits.c)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/description/) |easy|0.467|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/268-missing-number.c)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) |easy|0.529|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/283-move-zeroes.c)|
