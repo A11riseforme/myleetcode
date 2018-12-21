@@ -27,7 +27,7 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize) {
 }
 
 
-int main(int argc, char **argv) {
+int main() {
     int nums[5] = {2,7,11,15,17};
     int returnSize;
     int *result = twoSum(nums, 5, 18, &returnSize);

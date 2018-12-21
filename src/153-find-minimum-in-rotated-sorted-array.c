@@ -17,7 +17,7 @@ int findMin(int* nums, int numsSize) {
 }
 
 
-int main(int argc, char **argv) {
+int main() {
     int nums[6] = {5,6,1,2,3,4};
     int test[] = {1,2,3,4,5,6,7,8,9};
     int min = findMin(nums, 6);

@@ -31,7 +31,7 @@ int findMinBinary(int* nums, int numsSize) {
 }
 
 
-int main(int argc, char **argv) {
+int main() {
     int nums[5] = {2,2,2,0,1};
     int min = findMin(nums, 5);
     printf("%d", min);
