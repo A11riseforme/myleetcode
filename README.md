@@ -1,4 +1,4 @@
-# Stay Hungry, Stay Foolish
+# Stay Hungry, Stay Foolish test
 My own leetcode solutions.
 TODO:
 1. update 1-two-sum.c using hash table.
