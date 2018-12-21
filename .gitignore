@@ -1,2 +1,5 @@
 # config file of report-generating script:
 config.py
+
+# python cache folder
+__pycache__/
