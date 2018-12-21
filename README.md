@@ -6,10 +6,10 @@ TODO:
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 
 Completion statistic:<br>
-- Total : 95<br>
+- Total : 96<br>
     - Easy : 43<br>
     - Medium : 47<br>
-    - Hard : 5<br>
+    - Hard : 6<br>
 
 -----------------------
 ## LeetCode Solution Table
@@ -23,8 +23,8 @@ Completion statistic:<br>
 |008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) |medium|0.142|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/8-string-to-integer-atoi.c)|
 |009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |easy|0.403|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/9-palindrome-number.c)|
 |011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) |medium|0.408|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/11-container-with-most-water.c)|
-|012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) |medium|0.487|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/12-integer-to-roman.c)|
-|013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) |easy|0.505|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/13-roman-to-integer.c)|
+|012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) |medium|0.488|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/12-integer-to-roman.c)|
+|013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) |easy|0.506|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/13-roman-to-integer.c)|
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) |easy|0.324|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/14-longest-common-prefix.c)|
 |016|[3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) |medium|0.333|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/16-3sum-closest.c)|
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) |medium|0.392|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/17-letter-combinations-of-a-phone-number.c)|
@@ -47,14 +47,14 @@ Completion statistic:<br>
 |051|[N-Queens](https://leetcode.com/problems/n-queens/description/) |hard|0.365|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/51-n-queens.c)|
 |052|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) |hard|0.496|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/52-n-queens-ii.c)|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) |easy|0.420|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/53-maximum-subarray.c)|
-|054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) |medium|0.288|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/54-spiral-matrix.c)|
+|054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) |medium|0.289|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/54-spiral-matrix.c)|
 |055|[Jump Game](https://leetcode.com/problems/jump-game/description/) |medium|0.306|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/55-jump-game.c)|
 |058|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) |easy|0.320|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/58-length-of-last-word.c)|
 |059|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) |medium|0.442|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/59-spiral-matrix-ii.c)|
 |060|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) |medium|0.314|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/60-permutation-sequence.c)|
 |062|[Unique Paths](https://leetcode.com/problems/unique-paths/description/) |medium|0.453|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/62-unique-paths.c)|
 |063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) |medium|0.329|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/63-unique-paths-ii.c)|
-|064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) |medium|0.442|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/64-minimum-path-sum.c)|
+|064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) |medium|0.443|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/64-minimum-path-sum.c)|
 |065|[Valid Number](https://leetcode.com/problems/valid-number/description/) |hard|0.135|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/65-valid-number.c)|
 |066|[Plus One](https://leetcode.com/problems/plus-one/description/) |easy|0.402|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/66-plus-one.c)|
 |067|[Add Binary](https://leetcode.com/problems/add-binary/description/) |easy|0.369|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/67-add-binary.c)|
@@ -79,7 +79,7 @@ Completion statistic:<br>
 |120|[Triangle](https://leetcode.com/problems/triangle/description/) |medium|0.374|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/120-triangle.c)|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) |easy|0.452|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/121-best-time-to-buy-and-sell-stock.c)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |easy|0.500|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/122-best-time-to-buy-and-sell-stock-ii.c)|
-|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |easy|0.293|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/125-valid-palindrome.c)|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |easy|0.294|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/125-valid-palindrome.c)|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) |medium|0.214|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/130-surrounded-regions.c)|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) |medium|0.385|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/131-palindrome-partitioning.c)|
 |134|[Gas Station](https://leetcode.com/problems/gas-station/description/) |medium|0.321|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/134-gas-station.c)|
@@ -89,6 +89,7 @@ Completion statistic:<br>
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/) |medium|0.157|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/151-reverse-words-in-a-string.c)|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) |medium|0.279|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/152-maximum-product-subarray.c)|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) |medium|0.420|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/153-find-minimum-in-rotated-sorted-array.c)|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/) |hard|0.386|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/154-find-minimum-in-rotated-sorted-array-ii.c)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) |easy|0.482|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/167-two-sum-ii-input-array-is-sorted.c)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) |easy|0.282|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/168-excel-sheet-column-title.c)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/description/) |easy|0.504|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/169-majority-element.c)|
