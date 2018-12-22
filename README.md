@@ -6,8 +6,8 @@ TODO:
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 
 Completion statistic:<br>
-- Total : 99<br>
-    - Easy : 43<br>
+- Total : 100<br>
+    - Easy : 44<br>
     - Medium : 49<br>
     - Hard : 7<br>
 
@@ -30,7 +30,7 @@ Completion statistic:<br>
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) |medium|0.393|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/17-letter-combinations-of-a-phone-number.c)|
 |020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) |easy|0.352|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/20-valid-parentheses.c)|
 |022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) |medium|0.517|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/22-generate-parentheses.c)|
-|026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |easy|0.386|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/26-remove-duplicates-from-sorted-array.c)|
+|026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |easy|0.387|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/26-remove-duplicates-from-sorted-array.c)|
 |027|[Remove Element](https://leetcode.com/problems/remove-element/description/) |easy|0.427|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/27-remove-element.c)|
 |028|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) |easy|0.306|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/28-implement-strstr.c)|
 |031|[Next Permutation](https://leetcode.com/problems/next-permutation/description/) |medium|0.296|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/31-next-permutation.c)|
@@ -41,11 +41,11 @@ Completion statistic:<br>
 |043|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) |medium|0.293|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/43-multiply-strings.c)|
 |046|[Permutations](https://leetcode.com/problems/permutations/description/) |medium|0.518|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/46-permutations.c)|
 |047|[Permutations II](https://leetcode.com/problems/permutations-ii/description/) |medium|0.380|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/47-permutations-ii.c)|
-|048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |medium|0.453|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/48-rotate-image.c)|
+|048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |medium|0.454|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/48-rotate-image.c)|
 |049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) |medium|0.431|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/49-group-anagrams.c)|
 |050|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/) |medium|0.270|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/50-powx-n.c)|
 |051|[N-Queens](https://leetcode.com/problems/n-queens/description/) |hard|0.365|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/51-n-queens.c)|
-|052|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) |hard|0.496|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/52-n-queens-ii.c)|
+|052|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) |hard|0.497|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/52-n-queens-ii.c)|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) |easy|0.420|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/53-maximum-subarray.c)|
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) |medium|0.289|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/54-spiral-matrix.c)|
 |055|[Jump Game](https://leetcode.com/problems/jump-game/description/) |medium|0.306|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/55-jump-game.c)|
@@ -105,6 +105,7 @@ Completion statistic:<br>
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/) |medium|0.391|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/200-number-of-islands.c)|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/description/) |easy|0.435|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/202-happy-number.c)|
 |204|[Count Primes](https://leetcode.com/problems/count-primes/description/) |easy|0.275|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/204-count-primes.c)|
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/) |easy|0.361|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/205-isomorphic-strings.c)|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) |easy|0.497|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/217-contains-duplicate.c)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) |easy|0.341|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/219-contains-duplicate-ii.c)|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/description/) |easy|0.413|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/231-power-of-two.c)|
