@@ -72,7 +72,7 @@ filenames = os.listdir(code_dir)
 filenames.sort(key= lambda x:int(x.split('-')[0]))
 
 
-for i in range(len(filenames)):
+for i in range(len(problems_stats)):
     with open(readme_dir, "a+") as f:
         tmp = problems_stats[i].split(':')
         # print(table_template % (int(tmp[0]), tmp[1], tmp[4], tmp[2], tmp[3], filenames[i]))
