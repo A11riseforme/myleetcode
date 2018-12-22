@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 // check https://en.wikipedia.org/wiki/Digital_root#Congruence_formula
 int addDigits(int num) {
