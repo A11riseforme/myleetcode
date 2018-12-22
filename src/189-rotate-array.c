@@ -42,6 +42,6 @@ int main(int argc, char **argv) {
         printf("%d ", nums[i]);
     }
     printf("\n");
-
+    free(nums);
     return 0;
 }
