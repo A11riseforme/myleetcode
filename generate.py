@@ -30,6 +30,7 @@ hard_solved = pData['ac_hard']
 problems_solved = []
 problems_stats = []
 readme_dir = 'F:/Practice/myleetcode/README.md'
+code_dir = 'F:/Practice/myleetcode/src/'
 template = """# Stay Hungry, Stay Foolish
 My own leetcode solutions.
 TODO:
@@ -45,11 +46,11 @@ Completion statistic:<br>
 
 -----------------------
 ## LeetCode Solution Table
-| ID | Title | Difficulty | Acceptance Rate | C |
+| ID | Title | Difficulty | Acceptance Rate | source |
 |:---:|:---:|:---:|:---:|:---:|
 """
 
-table_template = """|%03d|[%s](https://leetcode.com/problems/%s/description/) |%s|%s|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/%d-%s.c)|
+table_template = """|%03d|[%s](https://leetcode.com/problems/%s/description/) |%s|%s|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/%s)|
 """
 
 for i in pData['stat_status_pairs']:
@@ -67,10 +68,16 @@ with open(readme_dir, "r+") as f:
     f.write(template % (num_solved, easy_solved, medium_solved, hard_solved))
 
 
-for i in problems_stats:
+filenames = os.listdir(code_dir)
+filenames.sort(key= lambda x:int(x.split('-')[0]))
+
+
+for i in range(len(filenames)):
     with open(readme_dir, "a+") as f:
-        tmp = i.split(':')
-        f.write(table_template % (int(tmp[0]), tmp[1], tmp[4], tmp[2], tmp[3], (int(tmp[0])), tmp[4]))
+        tmp = problems_stats[i].split(':')
+        # print(table_template % (int(tmp[0]), tmp[1], tmp[4], tmp[2], tmp[3], filenames[i]))
+        f.write(table_template % (int(tmp[0]), tmp[1], tmp[4], tmp[2], tmp[3], filenames[i]))
+        
 
 
 os.chdir("F:/Practice/myleetcode/")
