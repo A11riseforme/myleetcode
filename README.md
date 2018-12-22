@@ -6,9 +6,9 @@ TODO:
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 
 Completion statistic:<br>
-- Total : 96<br>
+- Total : 98<br>
     - Easy : 43<br>
-    - Medium : 47<br>
+    - Medium : 49<br>
     - Hard : 6<br>
 
 -----------------------
@@ -58,7 +58,7 @@ Completion statistic:<br>
 |065|[Valid Number](https://leetcode.com/problems/valid-number/description/) |hard|0.135|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/65-valid-number.c)|
 |066|[Plus One](https://leetcode.com/problems/plus-one/description/) |easy|0.402|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/66-plus-one.c)|
 |067|[Add Binary](https://leetcode.com/problems/add-binary/description/) |easy|0.369|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/67-add-binary.c)|
-|069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) |easy|0.299|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/69-sqrtx.c)|
+|069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) |easy|0.300|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/69-sqrtx.c)|
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) |easy|0.425|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/70-climbing-stairs.c)|
 |071|[Simplify Path](https://leetcode.com/problems/simplify-path/description/) |medium|0.275|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/71-simplify-path.c)|
 |073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) |medium|0.382|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/73-set-matrix-zeroes.c)|
@@ -84,12 +84,14 @@ Completion statistic:<br>
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) |medium|0.385|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/131-palindrome-partitioning.c)|
 |134|[Gas Station](https://leetcode.com/problems/gas-station/description/) |medium|0.321|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/134-gas-station.c)|
 |136|[Single Number](https://leetcode.com/problems/single-number/description/) |easy|0.579|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/136-single-number.c)|
-|139|[Word Break](https://leetcode.com/problems/word-break/description/) |medium|0.334|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/139-word-break.c)|
+|139|[Word Break](https://leetcode.com/problems/word-break/description/) |medium|0.335|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/139-word-break.c)|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) |medium|0.306|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/150-evaluate-reverse-polish-notation.c)|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/) |medium|0.157|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/151-reverse-words-in-a-string.c)|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) |medium|0.279|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/152-maximum-product-subarray.c)|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) |medium|0.420|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/153-find-minimum-in-rotated-sorted-array.c)|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/) |hard|0.386|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/154-find-minimum-in-rotated-sorted-array-ii.c)|
+|165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/) |medium|0.220|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/165-compare-version-numbers.c)|
+|166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/description/) |medium|0.188|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/166-fraction-to-recurring-decimal.c)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) |easy|0.482|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/167-two-sum-ii-input-array-is-sorted.c)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) |easy|0.282|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/168-excel-sheet-column-title.c)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/description/) |easy|0.504|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/169-majority-element.c)|
