@@ -31,27 +31,7 @@ problems_solved = []
 problems_stats = []
 readme_dir = 'F:/Practice/myleetcode/README.md'
 code_dir = 'F:/Practice/myleetcode/src/'
-template = """# Stay Hungry, Stay Foolish
-My own leetcode solutions.
-TODO:
-1. update 1-two-sum.c using hash table.
-2. update 28-implement-strstr.c using KMP and Boyer-Moore algorithm.
-3. update 5-longest-palindromic-substring.c using manacher algorithm.
 
-Completion statistic:<br>
-- Total : %d<br>
-    - Easy : %d<br>
-    - Medium : %d<br>
-    - Hard : %d<br>
-
------------------------
-## LeetCode Solution Table
-| ID | Title | Difficulty | Acceptance Rate | source |
-|:---:|:---:|:---:|:---:|:---:|
-"""
-
-table_template = """|%03d|[%s](https://leetcode.com/problems/%s/description/) |%s|%s|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/%s)|
-"""
 
 for i in pData['stat_status_pairs']:
     if i['status'] == 'ac':
@@ -65,7 +45,7 @@ for i in problems_solved[::-1]:
 
 with open(readme_dir, "r+") as f:
     f.truncate()
-    f.write(template % (num_solved, easy_solved, medium_solved, hard_solved))
+    f.write(config.template % (num_solved, easy_solved, medium_solved, hard_solved))
 
 
 filenames = os.listdir(code_dir)
@@ -76,7 +56,7 @@ for i in range(len(problems_stats)):
     with open(readme_dir, "a+") as f:
         tmp = problems_stats[i].split(':')
         # print(table_template % (int(tmp[0]), tmp[1], tmp[4], tmp[2], tmp[3], filenames[i]))
-        f.write(table_template % (int(tmp[0]), tmp[1], tmp[4], tmp[2], tmp[3], filenames[i]))
+        f.write(config.table_template % (int(tmp[0]), tmp[1], tmp[4], tmp[2], tmp[3], filenames[i].split(".")[-1], filenames[i]))
         
 
 
