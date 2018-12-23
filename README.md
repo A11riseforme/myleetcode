@@ -6,9 +6,9 @@ TODO:
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 
 Completion statistic:<br>
-- Total : 100<br>
+- Total : 101<br>
     - Easy : 44<br>
-    - Medium : 49<br>
+    - Medium : 50<br>
     - Hard : 7<br>
 
 -----------------------
@@ -37,10 +37,10 @@ Completion statistic:<br>
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) |medium|0.323|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/33-search-in-rotated-sorted-array.c)|
 |034|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) |medium|0.324|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/34-find-first-and-last-position-of-element-in-sorted-array.c)|
 |035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) |easy|0.401|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/35-search-insert-position.c)|
-|036|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) |medium|0.406|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/36-valid-sudoku.c)|
+|036|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) |medium|0.407|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/36-valid-sudoku.c)|
 |043|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) |medium|0.293|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/43-multiply-strings.c)|
 |046|[Permutations](https://leetcode.com/problems/permutations/description/) |medium|0.518|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/46-permutations.c)|
-|047|[Permutations II](https://leetcode.com/problems/permutations-ii/description/) |medium|0.380|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/47-permutations-ii.c)|
+|047|[Permutations II](https://leetcode.com/problems/permutations-ii/description/) |medium|0.381|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/47-permutations-ii.c)|
 |048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |medium|0.454|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/48-rotate-image.c)|
 |049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) |medium|0.431|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/49-group-anagrams.c)|
 |050|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/) |medium|0.270|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/50-powx-n.c)|
@@ -94,10 +94,11 @@ Completion statistic:<br>
 |166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/description/) |medium|0.188|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/166-fraction-to-recurring-decimal.c)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) |easy|0.482|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/167-two-sum-ii-input-array-is-sorted.c)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) |easy|0.282|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/168-excel-sheet-column-title.c)|
-|169|[Majority Element](https://leetcode.com/problems/majority-element/description/) |easy|0.504|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/169-majority-element.c)|
+|169|[Majority Element](https://leetcode.com/problems/majority-element/description/) |easy|0.505|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/169-majority-element.c)|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/) |easy|0.503|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/171-excel-sheet-column-number.c)|
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) |easy|0.370|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/172-factorial-trailing-zeroes.c)|
 |174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/description/) |hard|0.258|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/174-dungeon-game.c)|
+|187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/) |medium|0.347|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/187-repeated-dna-sequences.c)|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/) |easy|0.278|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/189-rotate-array.c)|
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) |easy|0.292|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/190-reverse-bits.c)|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/) |easy|0.410|[C](https://github.com/A11riseforme/myleetcode/blob/master/src/191-number-of-1-bits.c)|
