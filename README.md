@@ -7,9 +7,9 @@ TODO:
 4. update 214-shortest-palindrome.c using optimized algorithms.
 
 Completion statistic:<br>
-- Total : 104<br>
+- Total : 105<br>
     - Easy : 44<br>
-    - Medium : 52<br>
+    - Medium : 53<br>
     - Hard : 8<br>
 
 -----------------------
@@ -39,7 +39,7 @@ Completion statistic:<br>
 |034|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) |medium|0.324|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/34-find-first-and-last-position-of-element-in-sorted-array.c)|
 |035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) |easy|0.401|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/35-search-insert-position.c)|
 |036|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) |medium|0.407|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/36-valid-sudoku.c)|
-|043|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) |medium|0.293|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/43-multiply-strings.c)|
+|043|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) |medium|0.294|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/43-multiply-strings.c)|
 |046|[Permutations](https://leetcode.com/problems/permutations/description/) |medium|0.518|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/46-permutations.c)|
 |047|[Permutations II](https://leetcode.com/problems/permutations-ii/description/) |medium|0.381|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/47-permutations-ii.c)|
 |048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |medium|0.454|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/48-rotate-image.c)|
@@ -60,18 +60,18 @@ Completion statistic:<br>
 |066|[Plus One](https://leetcode.com/problems/plus-one/description/) |easy|0.402|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/66-plus-one.c)|
 |067|[Add Binary](https://leetcode.com/problems/add-binary/description/) |easy|0.369|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/67-add-binary.c)|
 |069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) |easy|0.300|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/69-sqrtx.c)|
-|070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) |easy|0.425|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/70-climbing-stairs.c)|
+|070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) |easy|0.426|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/70-climbing-stairs.c)|
 |071|[Simplify Path](https://leetcode.com/problems/simplify-path/description/) |medium|0.275|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/71-simplify-path.c)|
-|073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) |medium|0.382|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/73-set-matrix-zeroes.c)|
+|073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) |medium|0.383|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/73-set-matrix-zeroes.c)|
 |074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) |medium|0.344|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/74-search-a-2d-matrix.c)|
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors/description/) |medium|0.406|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/75-sort-colors.c)|
 |076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) |hard|0.291|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/76-minimum-window-substring.c)|
-|077|[Combinations](https://leetcode.com/problems/combinations/description/) |medium|0.447|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/77-combinations.c)|
+|077|[Combinations](https://leetcode.com/problems/combinations/description/) |medium|0.448|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/77-combinations.c)|
 |078|[Subsets](https://leetcode.com/problems/subsets/description/) |medium|0.494|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/78-subsets.c)|
 |079|[Word Search](https://leetcode.com/problems/word-search/description/) |medium|0.296|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/79-word-search.c)|
 |080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) |medium|0.388|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/80-remove-duplicates-from-sorted-array-ii.c)|
 |081|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) |medium|0.324|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/81-search-in-rotated-sorted-array-ii.c)|
-|085|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/) |hard|0.316|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/85-maximal-rectangle.c)|
+|085|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/) |hard|0.317|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/85-maximal-rectangle.c)|
 |088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) |easy|0.341|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/88-merge-sorted-array.c)|
 |089|[Gray Code](https://leetcode.com/problems/gray-code/description/) |medium|0.442|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/89-gray-code.c)|
 |091|[Decode Ways](https://leetcode.com/problems/decode-ways/description/) |medium|0.214|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/91-decode-ways.c)|
@@ -111,12 +111,13 @@ Completion statistic:<br>
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/) |medium|0.337|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/209-minimum-size-subarray-sum.c)|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/description/) |medium|0.348|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/213-house-robber-ii.c)|
 |214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/) |hard|0.264|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/214-shortest-palindrome.c)|
-|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) |easy|0.497|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/217-contains-duplicate.c)|
+|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) |medium|0.444|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/215-kth-largest-element-in-an-array.c)|
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) |easy|0.498|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/217-contains-duplicate.c)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) |easy|0.341|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/219-contains-duplicate-ii.c)|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/description/) |easy|0.413|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/231-power-of-two.c)|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) |easy|0.499|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/242-valid-anagram.c)|
 |258|[Add Digits](https://leetcode.com/problems/add-digits/description/) |easy|0.530|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/258-add-digits.c)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/description/) |easy|0.468|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/268-missing-number.c)|
-|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) |easy|0.529|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/283-move-zeroes.c)|
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) |easy|0.530|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/283-move-zeroes.c)|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/description/) |easy|0.553|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/292-nim-game.c)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/description/) |easy|0.411|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/326-power-of-three.c)|
