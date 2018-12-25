@@ -1,7 +1,7 @@
 # Stay Hungry, Stay Foolish
 My own leetcode solutions.
 TODO:
-1. update 1-two-sum.c using hash table.
+~~1. update 1-two-sum.c using hash table.~~
 2. update 28-implement-strstr.c using KMP and Boyer-Moore algorithm.
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 4. update 214-shortest-palindrome.c using optimized algorithms.
@@ -19,11 +19,11 @@ Completion statistic:<br>
 |001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |easy|0.395|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1-two-sum.c)|
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |medium|0.256|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/3-longest-substring-without-repeating-characters.c)|
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) |medium|0.258|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/5-longest-palindromic-substring.c)|
-|006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |medium|0.296|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/6-zigzag-conversion.c)|
+|006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |medium|0.297|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/6-zigzag-conversion.c)|
 |007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) |easy|0.247|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/7-reverse-integer.c)|
 |008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) |medium|0.143|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/8-string-to-integer-atoi.c)|
-|009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |easy|0.403|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/9-palindrome-number.c)|
-|011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) |medium|0.408|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/11-container-with-most-water.c)|
+|009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |easy|0.404|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/9-palindrome-number.c)|
+|011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) |medium|0.409|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/11-container-with-most-water.c)|
 |012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) |medium|0.488|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/12-integer-to-roman.c)|
 |013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) |easy|0.506|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/13-roman-to-integer.c)|
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) |easy|0.324|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/14-longest-common-prefix.c)|
@@ -51,9 +51,9 @@ Completion statistic:<br>
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) |medium|0.289|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/54-spiral-matrix.c)|
 |055|[Jump Game](https://leetcode.com/problems/jump-game/description/) |medium|0.306|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/55-jump-game.c)|
 |058|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) |easy|0.320|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/58-length-of-last-word.c)|
-|059|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) |medium|0.442|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/59-spiral-matrix-ii.c)|
+|059|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) |medium|0.443|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/59-spiral-matrix-ii.c)|
 |060|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) |medium|0.314|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/60-permutation-sequence.c)|
-|062|[Unique Paths](https://leetcode.com/problems/unique-paths/description/) |medium|0.453|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/62-unique-paths.c)|
+|062|[Unique Paths](https://leetcode.com/problems/unique-paths/description/) |medium|0.454|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/62-unique-paths.c)|
 |063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) |medium|0.329|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/63-unique-paths-ii.c)|
 |064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) |medium|0.443|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/64-minimum-path-sum.c)|
 |065|[Valid Number](https://leetcode.com/problems/valid-number/description/) |hard|0.135|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/65-valid-number.c)|
@@ -63,7 +63,7 @@ Completion statistic:<br>
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) |easy|0.426|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/70-climbing-stairs.c)|
 |071|[Simplify Path](https://leetcode.com/problems/simplify-path/description/) |medium|0.275|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/71-simplify-path.c)|
 |073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) |medium|0.383|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/73-set-matrix-zeroes.c)|
-|074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) |medium|0.344|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/74-search-a-2d-matrix.c)|
+|074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) |medium|0.345|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/74-search-a-2d-matrix.c)|
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors/description/) |medium|0.406|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/75-sort-colors.c)|
 |076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) |hard|0.291|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/76-minimum-window-substring.c)|
 |077|[Combinations](https://leetcode.com/problems/combinations/description/) |medium|0.448|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/77-combinations.c)|
