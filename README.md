@@ -1,7 +1,7 @@
 # Stay Hungry, Stay Foolish
 My own leetcode solutions.
 TODO:
-~~1. update 1-two-sum.c using hash table.~~
+1. ~~update 1-two-sum.c using hash table.~~
 2. update 28-implement-strstr.c using KMP and Boyer-Moore algorithm.
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 4. update 214-shortest-palindrome.c using optimized algorithms.
