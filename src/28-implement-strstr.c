@@ -30,24 +30,24 @@ int strStrSlow(char* haystack, char* needle) {
 }
 
 
-void generateNext(char* needle, int next[]) {
-	int nLen = strlen(needle);
-	next[0] = -1;
-	int k = -1;
-	int j = 0;
-	while (j < nLen - 1) {
-		if (k == -1 || needle[j] == needle[k]) {
-			j++;
-			k++;
-			if (needle[j] != needle[k]) {
-				next[j] = k;
+void generateNext(char* p, int next[]) {
+    int pLen = strlen(p);
+    next[0] = -1;
+    int k = -1;
+    int j = 0;
+    while (j < pLen - 1) {
+        if (k == -1 || p[j] == p[k]) {
+            j++;
+            k++;
+            if (p[j] != p[k]) {
+                next[j] = k;
             } else {
-				next[j] = next[k];
+                next[j] = next[k];
             }
-		} else {
-			k = next[k];
-		}
-	}
+        } else {
+            k = next[k];
+        }
+    }
 }
 
 // KMP algorithm.
