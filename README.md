@@ -7,9 +7,9 @@ TODO:
 4. update 214-shortest-palindrome.c using optimized algorithms.
 
 Completion statistic:<br>
-- Total : 113<br>
+- Total : 114<br>
     - Easy : 46<br>
-    - Medium : 59<br>
+    - Medium : 60<br>
     - Hard : 8<br>
 
 -----------------------
@@ -126,6 +126,7 @@ Completion statistic:<br>
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) |easy|0.530|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/283-move-zeroes.c)|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/description/) |easy|0.553|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/292-nim-game.c)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/description/) |easy|0.411|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/326-power-of-three.c)|
+|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) |medium|0.590|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/442-find-all-duplicates-in-an-array.c)|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/) |easy|0.390|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/459-repeated-substring-pattern.c)|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |easy|0.303|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/605-can-place-flowers.c)|
 |971|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/description/) |medium|0.422|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/934-shortest-bridge.c)|
