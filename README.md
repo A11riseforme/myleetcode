@@ -7,8 +7,8 @@ TODO:
 4. update 214-shortest-palindrome.c using optimized algorithms.
 
 Completion statistic:<br>
-- Total : 115<br>
-    - Easy : 47<br>
+- Total : 117<br>
+    - Easy : 49<br>
     - Medium : 60<br>
     - Hard : 8<br>
 
@@ -122,6 +122,7 @@ Completion statistic:<br>
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/description/) |easy|0.413|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/231-power-of-two.c)|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) |easy|0.499|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/242-valid-anagram.c)|
 |258|[Add Digits](https://leetcode.com/problems/add-digits/description/) |easy|0.530|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/258-add-digits.c)|
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/description/) |easy|0.401|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/263-ugly-number.c)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/description/) |easy|0.468|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/268-missing-number.c)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) |easy|0.530|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/283-move-zeroes.c)|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/description/) |easy|0.553|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/292-nim-game.c)|
@@ -130,4 +131,5 @@ Completion statistic:<br>
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/) |easy|0.390|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/459-repeated-substring-pattern.c)|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/) |easy|0.581|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/566-reshape-the-matrix.c)|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |easy|0.303|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/605-can-place-flowers.c)|
+|932|[Monotonic Array](https://leetcode.com/problems/monotonic-array/description/) |easy|0.544|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/896-monotonic-array.c)|
 |971|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/description/) |medium|0.422|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/934-shortest-bridge.c)|
