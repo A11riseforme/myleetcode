@@ -7,8 +7,8 @@ TODO:
 4. update 214-shortest-palindrome.c using optimized algorithms.
 
 Completion statistic:<br>
-- Total : 114<br>
-    - Easy : 46<br>
+- Total : 115<br>
+    - Easy : 47<br>
     - Medium : 60<br>
     - Hard : 8<br>
 
@@ -32,7 +32,7 @@ Completion statistic:<br>
 |020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) |easy|0.352|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/20-valid-parentheses.c)|
 |022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) |medium|0.518|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/22-generate-parentheses.c)|
 |026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |easy|0.387|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/26-remove-duplicates-from-sorted-array.c)|
-|027|[Remove Element](https://leetcode.com/problems/remove-element/description/) |easy|0.427|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/27-remove-element.c)|
+|027|[Remove Element](https://leetcode.com/problems/remove-element/description/) |easy|0.428|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/27-remove-element.c)|
 |028|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) |easy|0.306|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/28-implement-strstr.c)|
 |031|[Next Permutation](https://leetcode.com/problems/next-permutation/description/) |medium|0.296|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/31-next-permutation.c)|
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) |medium|0.324|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/33-search-in-rotated-sorted-array.c)|
@@ -45,7 +45,7 @@ Completion statistic:<br>
 |048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |medium|0.454|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/48-rotate-image.c)|
 |049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) |medium|0.432|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/49-group-anagrams.c)|
 |050|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/) |medium|0.271|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/50-powx-n.c)|
-|051|[N-Queens](https://leetcode.com/problems/n-queens/description/) |hard|0.365|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/51-n-queens.c)|
+|051|[N-Queens](https://leetcode.com/problems/n-queens/description/) |hard|0.366|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/51-n-queens.c)|
 |052|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) |hard|0.497|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/52-n-queens-ii.c)|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) |easy|0.420|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/53-maximum-subarray.c)|
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) |medium|0.289|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/54-spiral-matrix.c)|
@@ -128,5 +128,6 @@ Completion statistic:<br>
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/description/) |easy|0.411|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/326-power-of-three.c)|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) |medium|0.590|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/442-find-all-duplicates-in-an-array.c)|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/) |easy|0.390|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/459-repeated-substring-pattern.c)|
+|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/) |easy|0.581|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/566-reshape-the-matrix.c)|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |easy|0.303|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/605-can-place-flowers.c)|
 |971|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/description/) |medium|0.422|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/934-shortest-bridge.c)|
