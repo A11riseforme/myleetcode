@@ -7,8 +7,8 @@ TODO:
 4. update 214-shortest-palindrome.c using optimized algorithms.
 
 Completion statistic:<br>
-- Total : 119<br>
-    - Easy : 49<br>
+- Total : 120<br>
+    - Easy : 50<br>
     - Medium : 61<br>
     - Hard : 9<br>
 
@@ -135,3 +135,4 @@ Completion statistic:<br>
 |639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/description/) |hard|0.242|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/639-decode-ways-ii.c)|
 |932|[Monotonic Array](https://leetcode.com/problems/monotonic-array/description/) |easy|0.545|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/896-monotonic-array.c)|
 |971|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/description/) |medium|0.422|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/934-shortest-bridge.c)|
+|981|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/) |easy|0.699|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/944-delete-columns-to-make-sorted.c)|
