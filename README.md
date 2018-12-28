@@ -9,10 +9,10 @@ TODO:
 algorithm.
 
 Completion statistic:<br>
-- Total : 121<br>
+- Total : 122<br>
     - Easy : 50<br>
     - Medium : 62<br>
-    - Hard : 9<br>
+    - Hard : 10<br>
 
 -----------------------
 ## LeetCode Solution Table
@@ -24,9 +24,9 @@ Completion statistic:<br>
 |006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |medium|0.297|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/6-zigzag-conversion.c)|
 |007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) |easy|0.248|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/7-reverse-integer.c)|
 |008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) |medium|0.143|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/8-string-to-integer-atoi.c)|
-|009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |easy|0.404|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/9-palindrome-number.c)|
+|009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |easy|0.405|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/9-palindrome-number.c)|
 |011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) |medium|0.409|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/11-container-with-most-water.c)|
-|012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) |medium|0.488|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/12-integer-to-roman.c)|
+|012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) |medium|0.489|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/12-integer-to-roman.c)|
 |013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) |easy|0.507|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/13-roman-to-integer.c)|
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) |easy|0.325|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/14-longest-common-prefix.c)|
 |016|[3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) |medium|0.333|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/16-3sum-closest.c)|
@@ -133,9 +133,10 @@ Completion statistic:<br>
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) |medium|0.590|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/442-find-all-duplicates-in-an-array.c)|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/) |easy|0.390|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/459-repeated-substring-pattern.c)|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/) |medium|0.388|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/474-ones-and-zeroes.c)|
+|483|[Smallest Good Base](https://leetcode.com/problems/smallest-good-base/description/) |hard|0.337|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/483-smallest-good-base.c)|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/) |easy|0.581|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/566-reshape-the-matrix.c)|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |easy|0.303|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/605-can-place-flowers.c)|
 |639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/description/) |hard|0.242|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/639-decode-ways-ii.c)|
 |932|[Monotonic Array](https://leetcode.com/problems/monotonic-array/description/) |easy|0.545|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/896-monotonic-array.c)|
 |971|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/description/) |medium|0.422|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/934-shortest-bridge.c)|
-|981|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/) |easy|0.699|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/944-delete-columns-to-make-sorted.c)|
+|981|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/) |easy|0.700|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/944-delete-columns-to-make-sorted.c)|
