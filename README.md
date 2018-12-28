@@ -5,11 +5,13 @@ TODO:
 2. update 28-implement-strstr.c using ~~KMP~~(done) and Boyer-Moore algorithm.
 3. update 5-longest-palindromic-substring.c using manacher algorithm.
 4. update 214-shortest-palindrome.c using optimized algorithms.
+5. update 287-find-the-duplicate-number.c using binary search and Floyd's Tortoise and Hare(cycle detection) 
+algorithm.
 
 Completion statistic:<br>
-- Total : 120<br>
+- Total : 121<br>
     - Easy : 50<br>
-    - Medium : 61<br>
+    - Medium : 62<br>
     - Hard : 9<br>
 
 -----------------------
@@ -67,7 +69,7 @@ Completion statistic:<br>
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors/description/) |medium|0.406|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/75-sort-colors.c)|
 |076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) |hard|0.291|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/76-minimum-window-substring.c)|
 |077|[Combinations](https://leetcode.com/problems/combinations/description/) |medium|0.448|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/77-combinations.c)|
-|078|[Subsets](https://leetcode.com/problems/subsets/description/) |medium|0.494|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/78-subsets.c)|
+|078|[Subsets](https://leetcode.com/problems/subsets/description/) |medium|0.495|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/78-subsets.c)|
 |079|[Word Search](https://leetcode.com/problems/word-search/description/) |medium|0.296|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/79-word-search.c)|
 |080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) |medium|0.389|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/80-remove-duplicates-from-sorted-array-ii.c)|
 |081|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) |medium|0.324|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/81-search-in-rotated-sorted-array-ii.c)|
@@ -125,6 +127,7 @@ Completion statistic:<br>
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/description/) |easy|0.401|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/263-ugly-number.c)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/description/) |easy|0.468|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/268-missing-number.c)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) |easy|0.530|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/283-move-zeroes.c)|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) |medium|0.472|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/287-find-the-duplicate-number.c)|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/description/) |easy|0.553|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/292-nim-game.c)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/description/) |easy|0.411|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/326-power-of-three.c)|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) |medium|0.590|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/442-find-all-duplicates-in-an-array.c)|
