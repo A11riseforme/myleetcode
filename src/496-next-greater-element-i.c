@@ -43,7 +43,7 @@ int* nextGreaterElement(int* findNums, int findNumsSize, int* nums, int numsSize
         min = nums[i] < min ? nums[i] : min;
         max = nums[i] > max ? nums[i] : max;
     }
-    // table[i] = n means in nums, the next greater number of i is n.
+    // table[i] = n means in nums, the next greater number of i+min is n.
     int *table = malloc((max-min+1)*sizeof(int));
     for (int i = 0; i < numsSize; i++) {
         table[nums[i]-min] = -1;
