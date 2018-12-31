@@ -16,6 +16,7 @@ def getData(cookies):
         'X-Requested-With': 'XMLHttpRequest',
     }
     url = "https://leetcode.com/api/problems/algorithms/"
+    # url = "https://leetcode.com/api/problems/all/"
     r = requests.get(url=url, headers=headers, cookies=cookies)
     hjson = json.loads(r.text)
     return hjson
