@@ -6,7 +6,7 @@
  * Return an array of size *returnSize.
  * Note: The returned array must be malloced, assume caller calls free().
  */
-int* nextGreaterElement(int* findNums, int findNumsSize, int* nums, int numsSize, int* returnSize) {
+int* nextGreaterElementSlow(int* findNums, int findNumsSize, int* nums, int numsSize, int* returnSize) {
     int *result = malloc(findNumsSize * sizeof(int));
     *returnSize = findNumsSize;
     bool found = false;
@@ -31,6 +31,38 @@ int* nextGreaterElement(int* findNums, int findNumsSize, int* nums, int numsSize
     }
     return result;
 }
+
+/**
+ * Return an array of size *returnSize.
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int* nextGreaterElement(int* findNums, int findNumsSize, int* nums, int numsSize, int* returnSize) {
+    int min = nums[0];
+    int max = nums[0];
+    for (int i = 1; i < numsSize; i++) {
+        min = nums[i] < min ? nums[i] : min;
+        max = nums[i] > max ? nums[i] : max;
+    }
+    // table[i] = n means in nums, the next greater number of i is n.
+    int *table = malloc((max-min+1)*sizeof(int));
+    for (int i = 0; i < numsSize; i++) {
+        table[nums[i]-min] = -1;
+        for (int j = i+1; j < numsSize; j++) {
+            if (nums[j] > nums[i]) {
+                table[nums[i]-min] = nums[j];
+                break;
+            }
+        }
+    }
+    int *result = malloc(findNumsSize*sizeof(int));
+    *returnSize = findNumsSize;
+    for (int i = 0; i < findNumsSize; i++) {
+        result[i] = table[findNums[i]-min];
+    }
+    free(table);
+    return result;
+}
+
 
 int main() {
     int findNums[] = {4, 1, 2};
