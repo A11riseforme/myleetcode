@@ -10,8 +10,8 @@ algorithm.
 6. update 496-next-greater-element-i.c using hash table.
 
 Completion statistic:<br>
-- Total : 130<br>
-    - Easy : 53<br>
+- Total : 131<br>
+    - Easy : 54<br>
     - Medium : 64<br>
     - Hard : 13<br>
 
@@ -34,7 +34,7 @@ Completion statistic:<br>
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) |medium|0.394|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/17-letter-combinations-of-a-phone-number.c)|
 |020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) |easy|0.353|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/20-valid-parentheses.c)|
 |022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) |medium|0.518|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/22-generate-parentheses.c)|
-|026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |easy|0.387|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/26-remove-duplicates-from-sorted-array.c)|
+|026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |easy|0.388|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/26-remove-duplicates-from-sorted-array.c)|
 |027|[Remove Element](https://leetcode.com/problems/remove-element/description/) |easy|0.428|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/27-remove-element.c)|
 |028|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) |easy|0.306|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/28-implement-strstr.c)|
 |031|[Next Permutation](https://leetcode.com/problems/next-permutation/description/) |medium|0.296|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/31-next-permutation.c)|
@@ -137,6 +137,7 @@ Completion statistic:<br>
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/description/) |easy|0.411|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/326-power-of-three.c)|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) |medium|0.590|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/442-find-all-duplicates-in-an-array.c)|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/) |easy|0.390|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/459-repeated-substring-pattern.c)|
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) |easy|0.696|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/461-hamming-distance.c)|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/) |medium|0.388|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/474-ones-and-zeroes.c)|
 |483|[Smallest Good Base](https://leetcode.com/problems/smallest-good-base/description/) |hard|0.338|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/483-smallest-good-base.c)|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/) |easy|0.579|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/496-next-greater-element-i.c)|
