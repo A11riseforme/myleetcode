@@ -3,15 +3,10 @@
 
 // do not over think about it. 脑筋急转弯？
 int findLUSlength(char* a, char* b) {
-    int aLen = strlen(a);
-    int bLen = strlen(b);
-    if (aLen == bLen) {
-        if (strcmp(a,b) == 0) {
-            return -1;
-        }
-        return aLen;
+    if (!strcmp(a, b)) {
+        return -1;
     }
-    return aLen > bLen ? aLen : bLen;
+    return strlen(a) > strlen(b) ? strlen(a) : strlen(b);
 }
 
 int main(int argc, char **argv) {
