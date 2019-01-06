@@ -10,9 +10,9 @@ algorithm.
 6. ~~update 496-next-greater-element-i.c using hash table.~~(done)
 
 Completion statistic:<br>
-- Total : 136<br>
+- Total : 137<br>
     - Easy : 57<br>
-    - Medium : 66<br>
+    - Medium : 67<br>
     - Hard : 13<br>
 
 -----------------------
@@ -135,6 +135,7 @@ Completion statistic:<br>
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) |medium|0.473|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/287-find-the-duplicate-number.c)|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/description/) |easy|0.554|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/292-nim-game.c)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/description/) |easy|0.412|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/326-power-of-three.c)|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/) |medium|0.635|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/338-counting-bits.c)|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) |medium|0.591|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/442-find-all-duplicates-in-an-array.c)|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/) |easy|0.390|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/459-repeated-substring-pattern.c)|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) |easy|0.697|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/461-hamming-distance.c)|
