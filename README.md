@@ -8,7 +8,7 @@ TODO:
 5. update 287-find-the-duplicate-number.c using binary search and Floyd's Tortoise and Hare(cycle detection) 
 algorithm.
 6. ~~update 496-next-greater-element-i.c using hash table.~~(done)
-7. update 798-smallest-rotation-with-highest-score.c using optimized algorithms.
+7. ~~update 798-smallest-rotation-with-highest-score.c using optimized algorithms.~~
 
 Completion statistic:<br>
 - Total : 146<br>
@@ -152,7 +152,7 @@ Completion statistic:<br>
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |easy|0.304|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/605-can-place-flowers.c)|
 |639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/description/) |hard|0.243|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/639-decode-ways-ii.c)|
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/description/) |easy|0.474|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/661-image-smoother.c)|
-|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/) |easy|0.434|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/674-longest-continuous-increasing-subsequence.c)|
+|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/) |easy|0.435|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/674-longest-continuous-increasing-subsequence.c)|
 |688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/description/) |medium|0.421|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/688-knight-probability-in-chessboard.c)|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) |medium|0.549|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/695-max-area-of-island.c)|
 |808|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/) |medium|0.399|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/792-number-of-matching-subsequences.c)|
@@ -165,4 +165,4 @@ Completion statistic:<br>
 |971|[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/description/) |medium|0.425|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/934-shortest-bridge.c)|
 |979|[DI String Match](https://leetcode.com/problems/di-string-match/description/) |easy|0.696|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/942-di-string-match.c)|
 |981|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/) |easy|0.702|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/944-delete-columns-to-make-sorted.c)|
-|1010|[Powerful Integers](https://leetcode.com/problems/powerful-integers/description/) |easy|0.367|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/970-powerful-integers.c)|
+|1010|[Powerful Integers](https://leetcode.com/problems/powerful-integers/description/) |easy|0.368|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/970-powerful-integers.c)|
