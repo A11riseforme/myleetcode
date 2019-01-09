@@ -2,6 +2,20 @@
 #include <stdlib.h>
 #include <string.h>
 
+// optimized, for algorithm wise, check http://www.cnblogs.com/grandyang/p/9272921.html
+int bestRotation(int* A, int ASize) {
+    int *change = calloc(ASize, sizeof(int));
+    int result = 0;
+    for (int i = 0; i < ASize; i++) {
+        change[(i-A[i] + 1 + ASize)%ASize] -= 1;
+    }
+    for (int i = 1; i < ASize; i++) {
+        change[i] += change[i-1] + 1;
+        result = change[i] > change[result] ? i : result;
+    }
+    return result;
+}
+
 int calcScore(int *nums, int numsSize) {
     int result = 0;
     for (int i = 0; i < numsSize; i++) {
@@ -20,7 +34,7 @@ void reverse(int *nums, int start, int end) {
 }
 
 // bruteforce, very slow. To be updated.
-int bestRotation(int* A, int ASize) {
+int bestRotationSlow(int* A, int ASize) {
     int maxScore = calcScore(A, ASize);
     int result = 0;
     int currScore;
