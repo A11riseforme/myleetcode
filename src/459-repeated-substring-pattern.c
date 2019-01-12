@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
+#include <math.h>
 
 bool is_prime(long num) {
     if (num == 1) {
@@ -20,8 +22,8 @@ bool is_prime(long num) {
     return true;
 }
 
-
-bool repeatedSubstringPattern(char* s) {
+// slow algorithm.
+bool repeatedSubstringPatternSlow(char* s) {
     int sLen = strlen(s);
     if (sLen <= 1) {
         return false;
@@ -50,8 +52,20 @@ bool repeatedSubstringPattern(char* s) {
     return false;
 }
 
+// let S1 be s[1:]+s[:-1], if s in S1, return true.
+// else return false
+bool repeatedSubstringPattern(char* s) {
+    int len = strlen(s);
+    char string[20000] = {0};
+    memcpy(string, s + 1, len - 1);
+    memcpy(string + len - 1, s, len - 1);
+    if (!strstr(string, s)) {
+        return false;
+    }
+    return true;
+}
 
-/* ./test 11111111 11111110 11111110 11111000 01111000 */
+
 int main(int argc, char **argv) {
     if (argc != 2) {
         fprintf(stderr, "Usage: ./test string\n");
