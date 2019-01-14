@@ -9,7 +9,8 @@ int numDecodings(char* s) {
 }
 
 // very slow but intuitive recursive method.
-int parseString(char *s, int index, int length) {
+// can boost using memoization or dp.
+int parseStringSlow(char *s, int index, int length) {
     if (index == length - 1) {
         if (s[index] >= '1' && s[index] <= '9') {
             return 1;
@@ -32,6 +33,37 @@ int toNumber(char *s, int index, int length) {
         number += s[index+i] - '0';
     }
     return number;
+}
+
+
+// faster algorithm with dp.
+int numDecodings(char* s) {
+    int len = strlen(s);
+    if (len == 0) {
+        return 0;
+    }
+    // ways[i] is number of ways to decode up to pos i.
+    int *ways = calloc(len, sizeof(int));
+    // initialize the first two value
+    ways[0] = s[0] <= '9' && s[0] > '0' ? 1 : 0;
+    if (s[1] <= '9' && s[1] > '0') {
+        ways[1] += ways[0];
+    }
+    int num = toNumber(s, 0, 2);
+    if (num <= 26 && num >= 10) {
+        ways[1] += 1;
+    }
+    // dp
+    for (int i = 2; i < len; ++i) {
+        if (s[i] <= '9' && s[i] > '0') {
+            ways[i] += ways[i - 1];
+        }
+        num = toNumber(s, i - 1, 2);
+        if (num <= 26 && num >= 10) {
+            ways[i] += ways[i - 2];
+        }
+    }
+    return ways[len - 1];
 }
 
 
