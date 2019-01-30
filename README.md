@@ -12,8 +12,8 @@ algorithm.~~(done)
 8. update 456-132-pattern.c using optimized algorithms.
 
 Completion statistic:<br>
-- Total : 209<br>
-    - Easy : 97<br>
+- Total : 211<br>
+    - Easy : 99<br>
     - Medium : 93<br>
     - Hard : 19<br>
 
@@ -141,7 +141,7 @@ Completion statistic:<br>
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) |easy|0.533|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/283-move-zeroes.c)|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) |medium|0.477|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/287-find-the-duplicate-number.c)|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/description/) |easy|0.554|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/292-nim-game.c)|
-|313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/description/) |medium|0.402|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/313-super-ugly-number.c)|
+|313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/description/) |medium|0.403|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/313-super-ugly-number.c)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/description/) |easy|0.413|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/326-power-of-three.c)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/) |medium|0.637|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/338-counting-bits.c)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/description/) |easy|0.625|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/541-reverse-string-ii.c)|
@@ -195,6 +195,7 @@ Completion statistic:<br>
 |777|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/) |easy|0.608|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/763-partition-labels.c)|
 |782|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/) |easy|0.825|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/771-jewels-and-stones.c)|
 |793|[Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/description/) |medium|0.325|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/777-swap-adjacent-in-lr-string.c)|
+|800|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/) |easy|0.548|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/784-letter-case-permutation.c)|
 |807|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/) |medium|0.605|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/791-custom-sort-string.c)|
 |808|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/) |medium|0.404|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/792-number-of-matching-subsequences.c)|
 |811|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/) |medium|0.421|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/795-number-of-subarrays-with-bounded-maximum.c)|
@@ -209,6 +210,7 @@ Completion statistic:<br>
 |898|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/) |easy|0.636|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/867-transpose-matrix.c)|
 |916|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/description/) |medium|0.229|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/880-decoded-string-at-index.c)|
 |919|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/description/) |easy|0.650|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/883-projection-area-of-3d-shapes.c)|
+|924|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/description/) |easy|0.550|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/888-fair-candy-swap.c)|
 |928|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/description/) |easy|0.552|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/892-surface-area-of-3d-shapes.c)|
 |932|[Monotonic Array](https://leetcode.com/problems/monotonic-array/description/) |easy|0.543|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/896-monotonic-array.c)|
 |935|[Orderly Queue](https://leetcode.com/problems/orderly-queue/description/) |hard|0.455|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/899-orderly-queue.c)|
@@ -227,6 +229,6 @@ Completion statistic:<br>
 |1010|[Powerful Integers](https://leetcode.com/problems/powerful-integers/description/) |easy|0.387|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/970-powerful-integers.c)|
 |1013|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/) |easy|0.664|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/509-fibonacci-number.c)|
 |1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) |easy|0.673|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/973-k-closest-points-to-origin.c)|
-|1018|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/) |easy|0.561|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/976-largest-perimeter-triangle.c)|
+|1018|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/) |easy|0.562|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/976-largest-perimeter-triangle.c)|
 |1019|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) |easy|0.747|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/977-squares-of-a-sorted-array.c)|
-|1026|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/description/) |easy|0.311|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/984-string-without-aaa-or-bbb.c)|
+|1026|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/description/) |easy|0.312|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/984-string-without-aaa-or-bbb.c)|
