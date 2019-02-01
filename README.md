@@ -12,9 +12,9 @@ algorithm.~~(done)
 8. update 456-132-pattern.c using optimized algorithms.
 
 Completion statistic:<br>
-- Total : 212<br>
-    - Easy : 100<br>
-    - Medium : 93<br>
+- Total : 214<br>
+    - Easy : 101<br>
+    - Medium : 94<br>
     - Hard : 19<br>
 
 -----------------------
@@ -49,7 +49,7 @@ Completion statistic:<br>
 |043|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) |medium|0.297|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/43-multiply-strings.c)|
 |046|[Permutations](https://leetcode.com/problems/permutations/description/) |medium|0.527|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/47-permutations-ii.c)|
 |047|[Permutations II](https://leetcode.com/problems/permutations-ii/description/) |medium|0.386|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/47-permutations-ii.c)|
-|048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |medium|0.461|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/48-rotate-image.c)|
+|048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |medium|0.462|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/48-rotate-image.c)|
 |049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) |medium|0.440|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/49-group-anagrams.c)|
 |050|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/) |medium|0.273|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/50-powx-n.c)|
 |051|[N-Queens](https://leetcode.com/problems/n-queens/description/) |hard|0.371|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/52-n-queens-ii.c)|
@@ -154,9 +154,11 @@ Completion statistic:<br>
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) |easy|0.524|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/448-find-all-numbers-disappeared-in-an-array.c)|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) |medium|0.544|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/451-sort-characters-by-frequency.c)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/) |medium|0.454|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/452-minimum-number-of-arrows-to-burst-balloons.c)|
+|453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/) |easy|0.489|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/462-minimum-moves-to-equal-array-elements-ii.c)|
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern/description/) |medium|0.273|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/456-132-pattern.c)|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/) |easy|0.392|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/459-repeated-substring-pattern.c)|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) |easy|0.698|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/461-hamming-distance.c)|
+|462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) |medium|0.522|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/462-minimum-moves-to-equal-array-elements-ii.c)|
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) |easy|0.599|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/463-island-perimeter.c)|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/) |medium|0.390|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/474-ones-and-zeroes.c)|
 |475|[Heaters](https://leetcode.com/problems/heaters/description/) |easy|0.308|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/475-heaters.c)|
