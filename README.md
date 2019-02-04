@@ -12,8 +12,8 @@ algorithm.~~(done)
 8. update 456-132-pattern.c using optimized algorithms.
 
 Completion statistic:<br>
-- Total : 225<br>
-    - Easy : 110<br>
+- Total : 227<br>
+    - Easy : 112<br>
     - Medium : 96<br>
     - Hard : 19<br>
 
@@ -177,10 +177,12 @@ Completion statistic:<br>
 |521|[Longest Uncommon Subsequence I ](https://leetcode.com/problems/longest-uncommon-subsequence-i/description/) |easy|0.560|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/521-longest-uncommon-subsequence-i.c)|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/) |easy|0.449|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/541-reverse-string-ii.c)|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/description/) |medium|0.343|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/542-01-matrix.c)|
+|551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/) |easy|0.451|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/551-student-attendance-record-i.c)|
 |556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/) |medium|0.296|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/556-next-greater-element-iii.c)|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) |easy|0.628|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/557-reverse-words-in-a-string-iii.c)|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/) |easy|0.582|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/566-reshape-the-matrix.c)|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |easy|0.305|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/605-can-place-flowers.c)|
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) |easy|0.454|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/628-maximum-product-of-three-numbers.c)|
 |639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/description/) |hard|0.245|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/639-decode-ways-ii.c)|
 |650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/) |medium|0.460|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/650-2-keys-keyboard.c)|
 |657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/description/) |easy|0.705|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/657-robot-return-to-origin.c)|
