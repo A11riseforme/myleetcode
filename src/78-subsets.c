@@ -59,6 +59,28 @@ int** subsets(int* nums, int numsSize, int** columnSizes, int* returnSize) {
     return result;
 }
 
+
+// using bit manipulation
+int** subsetsSmart(int* nums, int numsSize, int** columnSizes, int* returnSize) {
+    *returnSize = 1 << numsSize;
+    int **result = malloc(10000*sizeof(int*));
+    *columnSizes = malloc(10000*sizeof(int));
+    for (int i = 0; i < 1 << numsSize; ++i) {
+        int tmp[100] = {0};
+        int k = 0;
+        for (int j = 0; j < numsSize; ++j) {
+            if (i & (1 << j)) {
+                tmp[k++] = nums[j];
+            }
+        }
+        (*columnSizes)[i] = k;
+        result[i] = malloc(k*sizeof(int));
+        memcpy(result[i], tmp, k*sizeof(int));
+    }
+    return result;
+}
+
+
 int main() {
     int nums[3] = {1,2,3};
     int *columnSizes;
