@@ -13,8 +13,8 @@ algorithm.~~(done)
 9. ~~update 78-subsets.c using bit manipulation.~~(done)
 
 Completion statistic:<br>
-- Total : 247<br>
-    - Easy : 125<br>
+- Total : 250<br>
+    - Easy : 128<br>
     - Medium : 102<br>
     - Hard : 20<br>
 
@@ -22,7 +22,7 @@ Completion statistic:<br>
 ## LeetCode Solution Table
 | ID | Title | Difficulty | Acceptance Rate | source |
 |:---:|:---:|:---:|:---:|:---:|
-|001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |easy|0.408|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/167-two-sum-ii-input-array-is-sorted.c)|
+|001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |easy|0.409|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/167-two-sum-ii-input-array-is-sorted.c)|
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |medium|0.267|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/3-longest-substring-without-repeating-characters.c)|
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) |medium|0.264|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/5-longest-palindromic-substring.c)|
 |006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |medium|0.305|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/6-zigzag-conversion.c)|
@@ -152,7 +152,7 @@ Completion statistic:<br>
 |313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/description/) |medium|0.404|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/313-super-ugly-number.c)|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/) |medium|0.435|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/319-bulb-switcher.c)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/description/) |easy|0.413|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/326-power-of-three.c)|
-|338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/) |medium|0.638|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/338-counting-bits.c)|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/) |medium|0.639|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/338-counting-bits.c)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/description/) |easy|0.627|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/541-reverse-string-ii.c)|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) |easy|0.526|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/350-intersection-of-two-arrays-ii.c)|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) |easy|0.466|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/350-intersection-of-two-arrays-ii.c)|
@@ -172,7 +172,7 @@ Completion statistic:<br>
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) |easy|0.526|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/448-find-all-numbers-disappeared-in-an-array.c)|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) |medium|0.547|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/451-sort-characters-by-frequency.c)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/) |medium|0.456|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/452-minimum-number-of-arrows-to-burst-balloons.c)|
-|453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/) |easy|0.490|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/462-minimum-moves-to-equal-array-elements-ii.c)|
+|453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/) |easy|0.489|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/462-minimum-moves-to-equal-array-elements-ii.c)|
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern/description/) |medium|0.274|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/456-132-pattern.c)|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/) |easy|0.393|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/459-repeated-substring-pattern.c)|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) |easy|0.699|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/461-hamming-distance.c)|
@@ -187,6 +187,7 @@ Completion statistic:<br>
 |492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/description/) |easy|0.483|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/492-construct-the-rectangle.c)|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/) |easy|0.585|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/556-next-greater-element-iii.c)|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/) |medium|0.449|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/498-diagonal-traverse.c)|
+|500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/description/) |easy|0.615|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/500-keyboard-row.c)|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/description/) |easy|0.522|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/520-detect-capital.c)|
 |521|[Longest Uncommon Subsequence I ](https://leetcode.com/problems/longest-uncommon-subsequence-i/description/) |easy|0.560|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/521-longest-uncommon-subsequence-i.c)|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/) |easy|0.449|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/541-reverse-string-ii.c)|
@@ -229,6 +230,7 @@ Completion statistic:<br>
 |808|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/) |medium|0.411|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/792-number-of-matching-subsequences.c)|
 |811|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/) |medium|0.423|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/795-number-of-subarrays-with-bounded-maximum.c)|
 |814|[Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/description/) |hard|0.385|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/798-smallest-rotation-with-highest-score.c)|
+|824|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/description/) |easy|0.624|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/136-number-of-lines-to-write-string.c)|
 |825|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/) |medium|0.809|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/807-max-increase-to-keep-city-skyline.c)|
 |830|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/) |easy|0.549|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/812-largest-triangle-area.c)|
 |841|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/description/) |easy|0.626|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/821-shortest-distance-to-a-character.c)|
@@ -246,6 +248,7 @@ Completion statistic:<br>
 |932|[Monotonic Array](https://leetcode.com/problems/monotonic-array/description/) |easy|0.545|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/896-monotonic-array.c)|
 |935|[Orderly Queue](https://leetcode.com/problems/orderly-queue/description/) |hard|0.460|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/899-orderly-queue.c)|
 |941|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/description/) |easy|0.720|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/922-sort-array-by-parity-ii.c)|
+|944|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/description/) |easy|0.642|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/908-smallest-range-i.c)|
 |953|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/description/) |easy|0.559|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/917-reverse-only-letters.c)|
 |958|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/description/) |easy|0.666|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/922-sort-array-by-parity-ii.c)|
 |965|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/description/) |easy|0.769|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/929-unique-email-addresses.c)|
@@ -255,17 +258,17 @@ Completion statistic:<br>
 |990|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/) |easy|0.561|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/953-verifying-an-alien-dictionary.c)|
 |994|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/description/) |medium|0.372|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/957-prison-cells-after-n-days.c)|
 |1001|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/) |easy|0.734|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/961-n-repeated-element-in-size-2n-array.c)|
-|1002|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/description/) |medium|0.398|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/962-maximum-width-ramp.c)|
+|1002|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/description/) |medium|0.399|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/962-maximum-width-ramp.c)|
 |1009|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/description/) |medium|0.617|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/969-pancake-sorting.c)|
 |1010|[Powerful Integers](https://leetcode.com/problems/powerful-integers/description/) |easy|0.395|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/970-powerful-integers.c)|
 |1013|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/) |easy|0.664|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/509-fibonacci-number.c)|
-|1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) |easy|0.664|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/973-k-closest-points-to-origin.c)|
+|1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) |easy|0.663|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/973-k-closest-points-to-origin.c)|
 |1018|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/) |easy|0.567|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/976-largest-perimeter-triangle.c)|
 |1019|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) |easy|0.733|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/977-squares-of-a-sorted-array.c)|
-|1025|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/) |medium|0.580|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/983-minimum-cost-for-tickets.c)|
+|1025|[Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/) |medium|0.581|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/983-minimum-cost-for-tickets.c)|
 |1026|[String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/description/) |easy|0.320|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/984-string-without-aaa-or-bbb.c)|
 |1027|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/description/) |easy|0.680|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/985-sum-of-even-numbers-after-queries.c)|
-|1028|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/description/) |medium|0.600|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/986-interval-list-intersections.c)|
+|1028|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/description/) |medium|0.601|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/986-interval-list-intersections.c)|
 |1031|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/) |easy|0.449|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/989-add-to-array-form-of-integer.c)|
 |1033|[Broken Calculator](https://leetcode.com/problems/broken-calculator/description/) |medium|0.375|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/991-broken-calculator.c)|
 |1036|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/) |easy|0.467|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/994-rotting-oranges.c)|
