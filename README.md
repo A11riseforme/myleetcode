@@ -275,4 +275,4 @@ Completion statistic:<br>
 |1036|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/) |easy|0.467|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/994-rotting-oranges.c)|
 |1039|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/) |easy|0.482|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/997-find-the-town-judge.c)|
 |1041|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/description/) |easy|0.761|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/999-available-captures-for-rook.c)|
-|1043|[Grid Illumination](https://leetcode.com/problems/grid-illumination/description/) |hard|0.322|[cpp](https://github.com/A11riseforme/myleetcode/blob/master/src/1001-grid-illumination.cpp)|
+|1043|[Grid Illumination](https://leetcode.com/problems/grid-illumination/description/) |hard|0.322|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1001-grid-illumination.c)|
