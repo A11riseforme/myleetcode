@@ -11,8 +11,10 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
  // the following code will MLE(memory limit exceeded) for very big data size
- // for example, when N = 1000000000, so should implement hashtable
- // to tedious to implement that, I think it is better to just use c++ =(
+ // for example, when N = 1000000000, so should implement hashtable.
+ // but to tedious to implement that using C, I think it is better to just use C++. =(
+ // there is another C++ solution using hash table in the same directory of this file
+ // feel free to take a look =)
 int* gridIllumination(int N, int (*lamps)[2], int lampsRowSize, int (*queries)[2], int queriesRowSize, int* returnSize) {
     // store luminated lamp at r * N + c
     // from 0 to N*N-1
