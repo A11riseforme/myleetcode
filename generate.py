@@ -3,6 +3,14 @@ import requests
 import json
 import config
 
+def file_list(dirname, ext='.c'):
+    """获取目录下所有特定后缀的文件
+    @param dirname: str 目录的完整路径
+    @param ext: str 后缀名, 以点号开头
+    @return: list(str) 所有子文件名(不包含路径)组成的列表
+    """
+    return list(filter(
+        lambda filename: os.path.splitext(filename)[1] == ext, os.listdir(dirname)))
 
 def getData(cookies):
     headers = {
@@ -49,7 +57,8 @@ with open(readme_dir, "r+") as f:
     f.write(config.template % (num_solved, easy_solved, medium_solved, hard_solved))
 
 
-filenames = os.listdir(code_dir)
+#filenames = os.listdir(code_dir)
+filenames = file_list(code_dir)
 #filenames.sort(key= lambda x:int(x.split('-')[0]))
 
 
