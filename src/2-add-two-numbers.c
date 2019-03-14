@@ -39,6 +39,9 @@ Node* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
         curr = curr->next;
         curr -> next = NULL;
     }
+    if (!l1) {
+        l1 = l2;
+    }
     while (l1) {
         curr -> next = NEWNODE;
         curr = curr -> next;
@@ -49,17 +52,6 @@ Node* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
             break;
         }
         l1 = l1->next;
-    }
-    while (l2) {
-        curr -> next = NEWNODE;
-        curr = curr -> next;
-        sum = (l2->val + carry) % 10;
-        carry = (l2->val + carry) / 10;
-        curr -> val = sum;
-        if (!l2) {
-            break;
-        }
-        l2 = l2->next;
     }
     if (carry) {
         curr -> next = NEWNODE;
