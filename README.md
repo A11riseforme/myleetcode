@@ -13,9 +13,9 @@ algorithm.~~(done)
 9. ~~update 78-subsets.c using bit manipulation.~~(done)
 
 Completion statistic:<br>
-- Total : 293<br>
+- Total : 294<br>
     - Easy : 157<br>
-    - Medium : 115<br>
+    - Medium : 116<br>
     - Hard : 21<br>
 
 -----------------------
@@ -75,7 +75,7 @@ Completion statistic:<br>
 |067|[Add Binary](https://leetcode.com/problems/add-binary/description/) |easy|0.382|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/67-add-binary.c)|
 |069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) |easy|0.308|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/69-sqrtx.c)|
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) |easy|0.436|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/746-min-cost-climbing-stairs.c)|
-|071|[Simplify Path](https://leetcode.com/problems/simplify-path/description/) |medium|0.282|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/71-simplify-path.c)|
+|071|[Simplify Path](https://leetcode.com/problems/simplify-path/description/) |medium|0.283|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/71-simplify-path.c)|
 |073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) |medium|0.391|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/73-set-matrix-zeroes.c)|
 |074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) |medium|0.347|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/74-search-a-2d-matrix.c)|
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors/description/) |medium|0.415|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/75-sort-colors.c)|
@@ -99,7 +99,7 @@ Completion statistic:<br>
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) |medium|0.222|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/130-surrounded-regions.c)|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) |medium|0.399|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/131-palindrome-partitioning.c)|
 |134|[Gas Station](https://leetcode.com/problems/gas-station/description/) |medium|0.331|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/134-gas-station.c)|
-|136|[Single Number](https://leetcode.com/problems/single-number/description/) |easy|0.592|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/137-single-number-ii.c)|
+|136|[Single Number](https://leetcode.com/problems/single-number/description/) |easy|0.593|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/137-single-number-ii.c)|
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii/description/) |medium|0.453|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/137-single-number-ii.c)|
 |139|[Word Break](https://leetcode.com/problems/word-break/description/) |medium|0.346|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/140-word-break-ii.c)|
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/description/) |hard|0.268|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/140-word-break-ii.c)|
@@ -226,7 +226,7 @@ Completion statistic:<br>
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/description/) |easy|0.495|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/697-degree-of-an-array.c)|
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/description/) |easy|0.489|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/717-1-bit-and-2-bit-characters.c)|
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/) |medium|0.451|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/718-maximum-length-of-repeated-subarray.c)|
-|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/) |easy|0.692|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/728-self-dividing-numbers.c)|
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/) |easy|0.693|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/728-self-dividing-numbers.c)|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/description/) |easy|0.500|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/733-flood-fill.c)|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) |medium|0.594|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/739-daily-temperatures.c)|
 |742|[To Lower Case](https://leetcode.com/problems/to-lower-case/description/) |easy|0.764|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/709-to-lower-case.c)|
@@ -287,8 +287,8 @@ Completion statistic:<br>
 |994|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/description/) |medium|0.378|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/957-prison-cells-after-n-days.c)|
 |1001|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/) |easy|0.731|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/961-n-repeated-element-in-size-2n-array.c)|
 |1002|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/description/) |medium|0.409|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/962-maximum-width-ramp.c)|
-|1009|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/description/) |medium|0.616|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/969-pancake-sorting.c)|
-|1010|[Powerful Integers](https://leetcode.com/problems/powerful-integers/description/) |easy|0.397|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/970-powerful-integers.c)|
+|1009|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/description/) |medium|0.617|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/969-pancake-sorting.c)|
+|1010|[Powerful Integers](https://leetcode.com/problems/powerful-integers/description/) |easy|0.396|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/970-powerful-integers.c)|
 |1013|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/) |easy|0.667|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/509-fibonacci-number.c)|
 |1014|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) |medium|0.647|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/973-k-closest-points-to-origin.c)|
 |1018|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/) |easy|0.569|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/976-largest-perimeter-triangle.c)|
@@ -309,9 +309,10 @@ Completion statistic:<br>
 |1047|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/) |easy|0.490|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1005-maximize-sum-of-array-after-k-negations.c)|
 |1048|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/description/) |medium|0.549|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1006-clumsy-factorial.c)|
 |1049|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/description/) |medium|0.465|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1007-minimum-domino-rotations-for-equal-row.c)|
-|1054|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/) |easy|0.579|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1012-complement-of-base-10-integer.c)|
+|1054|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/) |easy|0.580|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1012-complement-of-base-10-integer.c)|
 |1055|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/) |easy|0.431|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1013-pairs-of-songs-with-total-durations-divisible-by-60.c)|
-|1056|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/) |medium|0.508|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1014-capacity-to-ship-packages-within-d-days.c)|
-|1062|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/description/) |easy|0.485|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1020-partition-array-into-three-parts-with-equal-sum.c)|
-|1063|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/description/) |medium|0.367|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1021-best-sightseeing-pair.c)|
-|1064|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/description/) |medium|0.195|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1022-smallest-integer-divisible-by-k.c)|
+|1056|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/) |medium|0.507|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1014-capacity-to-ship-packages-within-d-days.c)|
+|1062|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/description/) |easy|0.486|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1020-partition-array-into-three-parts-with-equal-sum.c)|
+|1063|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/description/) |medium|0.370|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1021-best-sightseeing-pair.c)|
+|1064|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/description/) |medium|0.197|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1022-smallest-integer-divisible-by-k.c)|
+|1065|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/) |medium|0.639|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1023-binary-string-with-substrings-representing-1-to-n.c)|
