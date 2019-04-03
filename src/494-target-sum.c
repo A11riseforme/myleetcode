@@ -29,6 +29,36 @@ int findTargetSumWays(int* nums, int numsSize, int S) {
     return result;
 }
 
+// dp method
+int findTargetSumWays(int* nums, int numsSize, int S) {
+    int sum = 0;
+    for (int i = 0; i < numsSize; ++i) {
+        sum += nums[i];
+    }
+    if (sum < S || S < -sum) {
+        return 0;
+    }
+    int offset = sum;
+    // dp[i][j]: number of ways of getting (j-offset) using numbers up to index i;
+    int **dp = malloc((numsSize+1)*sizeof(int*));
+    for (int i = 0; i <= numsSize; ++i) {
+        // range from -sum to sum
+        // apply offset, from 0 to sum*2
+        dp[i] = calloc(2*sum+1, sizeof(int));
+    }
+    dp[0][offset] = 1;
+    for (int i = 0; i < numsSize; ++i) {
+        for (int j = nums[i]; j <= 2*sum-nums[i]; ++j) {
+            if (dp[i][j]) {
+                dp[i+1][j-nums[i]] += dp[i][j];
+                dp[i+1][j+nums[i]] += dp[i][j];
+            }
+        }
+    }
+    return dp[numsSize][S+offset];
+
+}
+
 int main(int argc, char** argv) {
     /*
     if (argc != 2) {
