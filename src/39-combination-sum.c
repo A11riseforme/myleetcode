@@ -40,14 +40,11 @@ int cmp(const void * a, const void * b) {
  */
 int** combinationSum(int* candidates, int candidatesSize, int target, int** columnSizes, int* returnSize) {
     qsort(candidates, candidatesSize, sizeof(int), cmp);
-    int *tmp = malloc(100 * sizeof(int));
-    int **result = malloc(10000 * sizeof(int*));
-    (*columnSizes) = malloc(10000 * sizeof(int));
+    int *tmp = malloc(100*sizeof(int));
+    int **result = malloc(10000*sizeof(int*));
+    (*columnSizes) = malloc(10000*sizeof(int));
     *returnSize = 0;
-    for (int i = 0; i < candidatesSize; ++i) {
-        tmp[0] = candidates[i];
-        dfs(candidates, candidatesSize, target - candidates[i], result, columnSizes, tmp, 1, i, returnSize);
-    }
+    dfs(candidates, candidatesSize, target, result, columnSizes, tmp, 0, 0, returnSize);
     return result;
 }
 
