@@ -14,9 +14,9 @@ algorithm.~~(done)
 10. ~~update qn 494-target-sum.c using dynamic programming.~~(done)
 
 Completion statistic:<br>
-- Total : 303<br>
+- Total : 304<br>
     - Easy : 159<br>
-    - Medium : 121<br>
+    - Medium : 122<br>
     - Hard : 23<br>
 
 -----------------------
@@ -70,6 +70,7 @@ Completion statistic:<br>
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) |easy|0.431|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/53-maximum-subarray.c)|
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) |medium|0.299|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/59-spiral-matrix-ii.c)|
 |055|[Jump Game](https://leetcode.com/problems/jump-game/description/) |medium|0.315|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/55-jump-game.c)|
+|056|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) |medium|0.352|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/56-merge-intervals.c)|
 |058|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) |easy|0.322|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/58-length-of-last-word.c)|
 |059|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) |medium|0.458|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/59-spiral-matrix-ii.c)|
 |060|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) |medium|0.326|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/60-permutation-sequence.c)|
@@ -212,7 +213,7 @@ Completion statistic:<br>
 |556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/) |medium|0.298|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/556-next-greater-element-iii.c)|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) |easy|0.634|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/557-reverse-words-in-a-string-iii.c)|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/) |easy|0.586|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/566-reshape-the-matrix.c)|
-|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/description/) |easy|0.593|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/575-distribute-candies.c)|
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/description/) |easy|0.592|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/575-distribute-candies.c)|
 |598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/description/) |easy|0.485|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/598-range-addition-ii.c)|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |easy|0.307|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/605-can-place-flowers.c)|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) |easy|0.457|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/628-maximum-product-of-three-numbers.c)|
@@ -245,7 +246,7 @@ Completion statistic:<br>
 |767|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/description/) |easy|0.583|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/762-prime-number-of-set-bits-in-binary-representation.c)|
 |768|[Partition Labels](https://leetcode.com/problems/partition-labels/description/) |medium|0.692|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/763-partition-labels.c)|
 |769|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/) |medium|0.431|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/764-largest-plus-sign.c)|
-|777|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/) |easy|0.613|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/764-largest-plus-sign.c)|
+|777|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/) |easy|0.612|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/764-largest-plus-sign.c)|
 |782|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/) |easy|0.829|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/771-jewels-and-stones.c)|
 |792|[Binary Search](https://leetcode.com/problems/binary-search/description/) |easy|0.463|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/704-binary-search.c)|
 |793|[Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/description/) |medium|0.329|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/777-swap-adjacent-in-lr-string.c)|
@@ -268,7 +269,7 @@ Completion statistic:<br>
 |866|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/description/) |easy|0.460|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/836-rectangle-overlap.c)|
 |870|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/description/) |easy|0.352|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/840-magic-squares-in-grid.c)|
 |874|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) |easy|0.455|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/884-backspace-string-compare.c)|
-|882|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) |easy|0.692|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/852-peak-index-in-a-mountain-array.c)|
+|882|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) |easy|0.693|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/852-peak-index-in-a-mountain-array.c)|
 |889|[Buddy Strings](https://leetcode.com/problems/buddy-strings/description/) |easy|0.274|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/859-buddy-strings.c)|
 |890|[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/) |easy|0.502|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/859-buddy-strings.c)|
 |898|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/) |easy|0.637|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/867-transpose-matrix.c)|
