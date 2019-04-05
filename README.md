@@ -14,9 +14,9 @@ algorithm.~~(done)
 10. ~~update qn 494-target-sum.c using dynamic programming.~~(done)
 
 Completion statistic:<br>
-- Total : 302<br>
+- Total : 303<br>
     - Easy : 159<br>
-    - Medium : 120<br>
+    - Medium : 121<br>
     - Hard : 23<br>
 
 -----------------------
@@ -55,7 +55,8 @@ Completion statistic:<br>
 |036|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) |medium|0.423|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/36-valid-sudoku.c)|
 |037|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/) |hard|0.360|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/37-sudoku-solver.c)|
 |038|[Count and Say](https://leetcode.com/problems/count-and-say/description/) |easy|0.399|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/38-count-and-say.c)|
-|039|[Combination Sum](https://leetcode.com/problems/combination-sum/description/) |medium|0.474|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/39-combination-sum.c)|
+|039|[Combination Sum](https://leetcode.com/problems/combination-sum/description/) |medium|0.474|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/40-combination-sum-ii.c)|
+|040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) |medium|0.407|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/40-combination-sum-ii.c)|
 |041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) |hard|0.285|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/41-first-missing-positive.c)|
 |042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) |hard|0.424|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/42-trapping-rain-water.c)|
 |043|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) |medium|0.302|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/43-multiply-strings.c)|
@@ -211,7 +212,7 @@ Completion statistic:<br>
 |556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/) |medium|0.298|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/556-next-greater-element-iii.c)|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) |easy|0.634|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/557-reverse-words-in-a-string-iii.c)|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/) |easy|0.586|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/566-reshape-the-matrix.c)|
-|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/description/) |easy|0.592|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/575-distribute-candies.c)|
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/description/) |easy|0.593|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/575-distribute-candies.c)|
 |598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/description/) |easy|0.485|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/598-range-addition-ii.c)|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |easy|0.307|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/605-can-place-flowers.c)|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) |easy|0.457|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/628-maximum-product-of-three-numbers.c)|
@@ -315,7 +316,7 @@ Completion statistic:<br>
 |1047|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/) |easy|0.494|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1005-maximize-sum-of-array-after-k-negations.c)|
 |1048|[Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/description/) |medium|0.545|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1006-clumsy-factorial.c)|
 |1049|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/description/) |medium|0.458|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1007-minimum-domino-rotations-for-equal-row.c)|
-|1054|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/) |easy|0.581|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1012-complement-of-base-10-integer.c)|
+|1054|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/) |easy|0.582|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1012-complement-of-base-10-integer.c)|
 |1055|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/) |easy|0.439|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1013-pairs-of-songs-with-total-durations-divisible-by-60.c)|
 |1056|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/) |medium|0.510|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1014-capacity-to-ship-packages-within-d-days.c)|
 |1062|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/description/) |easy|0.532|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1020-partition-array-into-three-parts-with-equal-sum.c)|
@@ -323,5 +324,5 @@ Completion statistic:<br>
 |1064|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/description/) |medium|0.259|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1022-smallest-integer-divisible-by-k.c)|
 |1065|[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/) |medium|0.653|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1023-binary-string-with-substrings-representing-1-to-n.c)|
 |1070|[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/description/) |medium|0.542|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1017-convert-to-base-2.c)|
-|1071|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/) |easy|0.442|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1018-binary-prefix-divisible-by-5.c)|
+|1071|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/) |easy|0.441|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1018-binary-prefix-divisible-by-5.c)|
 |1073|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/description/) |medium|0.543|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/1020-number-of-enclaves.c)|
