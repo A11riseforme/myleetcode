@@ -12,7 +12,7 @@ algorithm.~~(done)
 8. update 456-132-pattern.c using optimized algorithms.
 9. ~~update 78-subsets.c using bit manipulation.~~(done)
 10. ~~update qn 494-target-sum.c using dynamic programming.~~(done)
-11. update 289-game-of-life.c using bit manipulation so it can be solved in space.
+11. ~~update 289-game-of-life.c using bit manipulation so it can be solved in space.~~(done)
 
 Completion statistic:<br>
 - Total : 315<br>
@@ -183,7 +183,7 @@ Completion statistic:<br>
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/) |easy|0.592|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/412-fizz-buzz.c)|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/) |easy|0.288|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/414-third-maximum-number.c)|
 |415|[Add Strings](https://leetcode.com/problems/add-strings/description/) |easy|0.434|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/415-add-strings.c)|
-|434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/description/) |easy|0.367|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/434-number-of-segments-in-a-string.c)|
+|434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/description/) |easy|0.368|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/434-number-of-segments-in-a-string.c)|
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/) |easy|0.369|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/434-number-of-segments-in-a-string.c)|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) |medium|0.604|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/442-find-all-duplicates-in-an-array.c)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/description/) |easy|0.373|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/443-string-compression.c)|
@@ -260,7 +260,7 @@ Completion statistic:<br>
 |799|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/) |easy|0.500|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/783-minimum-distance-between-bst-nodes.c)|
 |800|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/) |easy|0.558|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/784-letter-case-permutation.c)|
 |804|[Rotated Digits](https://leetcode.com/problems/rotated-digits/description/) |easy|0.536|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/788-rotated-digits.c)|
-|807|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/) |medium|0.613|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/791-custom-sort-string.c)|
+|807|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/) |medium|0.614|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/791-custom-sort-string.c)|
 |808|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/) |medium|0.423|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/792-number-of-matching-subsequences.c)|
 |811|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/) |medium|0.427|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/795-number-of-subarrays-with-bounded-maximum.c)|
 |812|[Rotate String](https://leetcode.com/problems/rotate-string/description/) |easy|0.488|[c](https://github.com/A11riseforme/myleetcode/blob/master/src/796-rotate-string.c)|
