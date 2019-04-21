@@ -42,6 +42,35 @@ void gameOfLife(int** board, int boardRowSize, int *boardColSizes) {
     free(dup);
 }
 
+
+// bit manipulation
+void gameOfLifeBit(int** board, int boardRowSize, int *boardColSizes) {
+    for (int i = 0; i < boardRowSize; ++i) {
+        for (int j = 0; j < boardColSizes[i]; ++j) {
+            int cnt = 0;
+            for (int r = -1; r <= 1; ++r) {
+                for (int c = -1; c <= 1; ++c) {
+                    int nr = i + r;
+                    int nc = j + c;
+                    if (nr < 0 || nr >= boardRowSize || nc < 0 || nc >= boardColSizes[i]) {
+                        continue;
+                    }
+                    cnt += board[nr][nc]&1;
+                }
+            }
+            if (cnt == 3 || cnt - (board[i][j]&1) == 3) {
+                board[i][j] |= 2;
+            }
+        }
+    }
+    for (int i = 0; i < boardRowSize; ++i) {
+        for (int j = 0; j < boardColSizes[i]; ++j) {
+            board[i][j] >>= 1;
+        }
+    }
+}
+
+
 int main(int argc, char **argv) {
     /*
     if (argc < 3 ) {
