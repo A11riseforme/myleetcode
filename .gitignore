@@ -3,3 +3,6 @@ config.py
 
 # python cache folder
 __pycache__/
+
+# compiled executables
+src/*.exe
