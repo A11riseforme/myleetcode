@@ -6,3 +6,6 @@ __pycache__/
 
 # compiled executables
 src/*.exe
+
+# vscode directory
+.vscode/
