@@ -3,6 +3,7 @@ import requests
 import json
 import config
 
+
 def file_list(dirname, ext='.c'):
     """获取目录下所有特定后缀的文件
     @param dirname: str 目录的完整路径
@@ -11,6 +12,7 @@ def file_list(dirname, ext='.c'):
     """
     return list(filter(
         lambda filename: os.path.splitext(filename)[1] == ext, os.listdir(dirname)))
+
 
 def getData(cookies):
     headers = {
@@ -38,41 +40,41 @@ medium_solved = pData['ac_medium']
 hard_solved = pData['ac_hard']
 problems_solved = []
 problems_stats = []
-readme_dir = 'F:/Practice/myleetcode/README.md'
-code_dir = 'F:/Practice/myleetcode/src/'
+curr_dir = os.getcwd()
+readme_dir = curr_dir+'\\README.md'
+code_dir = curr_dir + '\\src\\'
+sourcenames = file_list(code_dir)
 
 
 for i in pData['stat_status_pairs']:
     if i['status'] == 'ac':
         problems_solved.append(i)
 
+
 for i in problems_solved[::-1]:
-    problems_stats.append(str(i['stat']['question_id']) + ':' + i['stat']['question__title'] + ':' + str(
+    problems_stats.append(str(i['stat']['frontend_question_id']) + ':' + i['stat']['question__title'] + ':' + str(
         i['difficulty']['level']).replace('1', 'easy').replace('2', 'medium').replace('3', 'hard') + ':' + str(
         i['stat']['total_acs'] / i['stat']['total_submitted'])[0:5] + ':' + i['stat']['question__title_slug'])
+    if str(i['stat']['frontend_question_id'])+'-'+i['stat']['question__title_slug']+'.c' not in sourcenames:
+        os.popen("copy template.c src\\" +
+                 str(i['stat']['frontend_question_id'])+'-'+i['stat']['question__title_slug']+'.c')
+        print("you haven't uploaded "+str(i['stat']['frontend_question_id'])+'-'+i['stat']
+              ['question__title_slug']+'.c yet')
 
 
 with open(readme_dir, "r+") as f:
     f.truncate()
-    f.write(config.template % (num_solved, easy_solved, medium_solved, hard_solved))
+    f.write(config.template %
+            (num_solved, easy_solved, medium_solved, hard_solved))
 
 
-#filenames = os.listdir(code_dir)
-filenames = file_list(code_dir)
-#filenames.sort(key= lambda x:int(x.split('-')[0]))
+with open(readme_dir, "a+") as f:
+    for i in problems_stats:
+        [problem_id, problem_name, level, rate, filename] = i.split(':')
+        f.write(config.table_template %
+                (int(problem_id), problem_name, filename, level, rate, 'c', filename+'.c'))
 
 
-for i in range(len(problems_stats)):
-    with open(readme_dir, "a+") as f:
-        tmp = problems_stats[i].split(':')
-        # print(table_template % (int(tmp[0]), tmp[1], tmp[4], tmp[2], tmp[3], filenames[i]))
-        for j in filenames:
-            if tmp[4] in j:
-                tmpFilename = j
-        f.write(config.table_template % (int(tmp[0]), tmp[1], tmp[4], tmp[2], tmp[3], tmpFilename.split(".")[-1], tmpFilename))
-        
-
-
-os.chdir("F:/Practice/myleetcode/")
+os.chdir("D:/Practice/myleetcode/")
 os.system('dir')
 os.system("git commit README.md -m \"update README.md\" && git push")

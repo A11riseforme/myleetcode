@@ -9,3 +9,10 @@ src/*.exe
 
 # vscode directory
 .vscode/
+src/.vscode/
+
+# vscode CodeRunnerFile
+tempCodeRunnerFile.py
+
+# template C source code
+template.c
