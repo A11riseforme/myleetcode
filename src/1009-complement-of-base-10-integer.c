@@ -6,6 +6,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+int bitwiseComplement(int N) {
+    int i = 1;
+    while (N > i) {
+        i = (i << 1) + 1;
+    }
+    return i - N;
+}
+
 int main(int argc, char **argv) {
 
     if (argc != 2) {
@@ -13,5 +21,6 @@ int main(int argc, char **argv) {
         exit(-1);
     }
 
+    printf("%d\n", bitwiseComplement(atoi(argv[1])));
     return 0;
 }

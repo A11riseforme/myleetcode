@@ -72,7 +72,7 @@ with open(readme_dir, "a+") as f:
     for i in problems_stats:
         [problem_id, problem_name, level, rate, filename] = i.split(':')
         f.write(config.table_template %
-                (int(problem_id), problem_name, filename, level, rate, 'c', filename+'.c'))
+                (int(problem_id), problem_name, filename, level, rate, 'c', problem_id + '-' + filename+'.c'))
 
 
 os.chdir("D:/Practice/myleetcode/")
